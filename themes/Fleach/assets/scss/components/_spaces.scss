@@ -1,0 +1,42 @@
+.mb{
+    &--10{
+        margin-bottom: 10px;
+    }
+    &--20{
+        margin-bottom: 20px;
+    }
+    &--40{
+        margin-bottom: 40px;
+    }
+    &--100{
+        margin-bottom: 100px;
+        @include breakpoint(xsmall){
+            margin-bottom: 50px;
+        }
+    }
+    &--200{
+        margin-bottom: 200px;
+        @include breakpoint(xsmall){
+            margin-bottom: 100px;
+        }
+    }
+}
+.mt{
+    &--100{
+        margin-top: 100px;
+    }
+}
+.mr{
+    &--10{
+        margin-right: 10px;
+    }
+    &--20{
+        margin-right: 20px;
+    }
+    &--40{
+        margin-right: 40px;
+    }
+}
+.m-auto{
+    margin: auto;
+}

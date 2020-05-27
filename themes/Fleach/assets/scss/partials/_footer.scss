@@ -1,0 +1,61 @@
+.main-footer{
+    padding: 100px 0 50px 0;
+    background: $white;
+    &__banneer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        @include breakpoint(xsmall){
+            flex-direction: column-reverse;
+            align-items: normal;
+        }
+    }
+    &__r{
+        @include breakpoint(xsmall){
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        img{
+            @include breakpoint(xsmall){
+                width: 80%;
+            }
+        }
+    }
+    &__navigation{
+        padding-top: 20px;
+        align-items: center;
+        @include breakpoint(small){
+            flex-direction: column-reverse;
+            align-items: normal;
+        }
+    }
+    &__navcenter{
+        display: flex;
+        flex-direction: column;
+        @include breakpoint(medium){
+            margin-bottom: 20px;
+        }
+    }
+    &__contact{
+        display: flex;
+        align-items: center;
+        @include breakpoint(medium){
+            margin-bottom: 20px !important;
+        }
+    }
+    &__icon{
+        border-radius: 50%;
+        width: 48px;
+        height: 48px;
+        display: flex;
+        justify-content: center;
+        margin-right: 15px;
+        background: $orange;
+        box-shadow: -1px 4px 13px 0 rgba(255,93,82,0.50);
+    }
+    &__navleft{
+        @include breakpoint(medium){
+            margin-bottom: 20px
+        }
+    }
+}

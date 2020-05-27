@@ -1,0 +1,205 @@
+.title{
+    &--lined{
+        color: transparent;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: $white;
+        font-family: Montserrat;
+        font-weight: 600;
+        font-size: 36px;
+        letter-spacing: -0.5px;
+        line-height: 48px;
+        @include breakpoint(xsmall){
+            font-size: 20px;
+            line-height: 30px;
+        }
+    }
+    &--one{
+        font-family: Montserrat;
+        font-weight: 500;
+        font-size: 24px;
+        letter-spacing: -0.5px;
+        line-height: 36px;
+        @include breakpoint(xsmall){
+            font-size: 16px;
+            line-height: 24px;
+        }
+        &--white{
+            color: $white;
+        }
+        &--orange{
+            color: $orange;
+        }
+        &--blue{
+            color: $blue;
+        }
+    }
+    &--two{
+        font-family: Montserrat;
+        font-size: 28px;
+        font-weight: 500;
+        letter-spacing: -0.5px;
+        @include breakpoint(xsmall){
+            font-size: 20px;
+        }
+        &--white{
+            color: $white;
+        }
+        &--orange{
+            color: $orange;
+        }
+        &--blue{
+            color: $blue;
+        }
+    }
+}
+.subtitle{
+    &--lined{
+        color: transparent;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: $orange;
+        font-family: Montserrat;
+        font-weight: 600;
+        font-size: 24px;
+        letter-spacing: -0.5px;
+        line-height: 36px;
+    }
+    &--one{
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 300;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        @include breakpoint(xsmall){
+            font-size: 12px;
+        }
+        &--white{
+            color: $white;
+        }
+        &--orange{
+            color: $orange;
+        }
+        &--blue{
+            color: $blue;
+        }
+    }
+    &--two{
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: -0.5px;
+        @include breakpoint(xsmall){
+            font-size: 16px;
+        }
+        &--white{
+            color: $white;
+        }
+        &--orange{
+            color: $orange;
+        }
+        &--blue{
+            color: $blue;
+        }
+    }
+}
+.txt-paragraph{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+    line-height: 27px;
+    @include breakpoint(xsmall){
+        font-size: 14px;
+        line-height: 21px;
+    }
+    @include breakpoint(medium){
+        font-size: 14px;
+        line-height: 21px;
+    }
+    &--white{
+        color: $white;
+    }
+    &--lightgrey{
+        color: $lightgrey;
+    }
+    &--darkgrey{
+        color: $darkgrey;
+    }
+    &--orange{
+        color: $orange;
+    }
+    &--blue{
+        color: $blue;
+    }
+    &--black{
+        color: $black;
+    }
+    &--strong{
+        font-weight: 500 !important;
+    }
+}
+.txt-style{
+    &--center{
+        text-align: center;
+    }
+    &--justify{
+        text-align: justify;
+    }
+    &--italic{
+        font-style: italic;
+    }
+    &--strong{
+        font-weight: 600;
+        &--orange{
+            color: $orange;
+        }
+    }
+    &--filled{
+        color: $white;
+        &--orange{
+            color: $orange !important;
+        }
+    }
+    &--link{
+        text-decoration: underline;
+    }
+}
+
+.txt-medium{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+    line-height: 21px;
+    @include breakpoint(xsmall){
+        font-size: 12px;
+        line-height: 18px;
+    }
+    &--white{
+        color: $white;
+    }
+    &--darkgrey{
+        color: $darkgrey;
+    }
+    &--lightgrey{
+        color: $lightgrey;
+    }
+}
+.txt-small{
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+    line-height: 27px;
+    @include breakpoint(xsmall){
+        font-size: 10px;
+    }
+    &--white{
+        color: $white;
+    }
+    &--darkgrey{
+        color: $darkgrey;
+    }
+    &--lightgrey{
+        color: $lightgrey;
+    }
+}

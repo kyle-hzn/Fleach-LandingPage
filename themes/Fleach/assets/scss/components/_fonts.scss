@@ -1,0 +1,17 @@
+@mixin font-face($font-family, $file-path, $font-weight, $font-style) {
+    @font-face {
+      font-family: $font-family;
+      src: url('../fonts/#{$file-path}.ttf') format('opentype');
+      font-weight: $font-weight;
+      font-style: $font-style;
+    }
+  }
+  
+  @include font-face(Montserrat, Montserrat-Light, 300, normal);
+  @include font-face(Montserrat, Montserrat-Regular, 400, normal);
+  @include font-face(Montserrat, Montserrat-Medium, 500, normal);
+  @include font-face(Montserrat, Montserrat-SemiBold, 600, normal);
+  
+  body {
+    font-family: Montserrat;
+  }
