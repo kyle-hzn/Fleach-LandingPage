@@ -2,11 +2,16 @@ html{
     overflow-x: hidden;
 }
 body{
-    background-color: red;
-    background-size: cover;
+    background-color: #FEFEFE;
 }
 a{
     text-decoration: none;
+}
+.container-fluid{
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .container {
     padding-right: 15px;

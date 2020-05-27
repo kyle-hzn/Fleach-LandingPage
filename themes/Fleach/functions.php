@@ -17,33 +17,5 @@ foreach ( glob( THEME_PATH . "/inc/*.php" ) as $file ) {
 
 show_admin_bar(false);
 
-function my_acf_google_map_api( $api ){
-	
-	$api['key'] = 'AIzaSyDdM_psX423qiTpneGH4iTdqsb6oqb7VqI';
-	
-	return $api;
-	
-}
+add_action( 'wp_enqueue_scripts', 'ajout_scripts' );
 
-add_filter('acf/fields/google_map/api', 'my_acf_google_map_api');
-
-add_action( 'wp_enqueue_scripts', 'ajout_scripts', 'my_deregister_javascript' );
-
-/*Redirection page 404*/
-function page404_redirection()
-{
- global $mapage;
- if(is_404())
- {
-    wp_redirect(home_url("error-404"));
-    exit;
- }
-}
-
-function reg_cat() {
-    register_taxonomy_for_object_type('category','testimonial');
-}
-add_action('init', 'reg_cat');
- 
-add_action('wp', 'page404_redirection',1);
-?>

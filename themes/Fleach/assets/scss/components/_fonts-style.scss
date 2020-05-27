@@ -1,205 +1,99 @@
 .title{
-    &--lined{
-        color: transparent;
-        -webkit-text-stroke-width: 1px;
-        -webkit-text-stroke-color: $white;
-        font-family: Montserrat;
-        font-weight: 600;
-        font-size: 36px;
-        letter-spacing: -0.5px;
-        line-height: 48px;
-        @include breakpoint(xsmall){
-            font-size: 20px;
-            line-height: 30px;
-        }
-    }
     &--one{
-        font-family: Montserrat;
-        font-weight: 500;
-        font-size: 24px;
-        letter-spacing: -0.5px;
-        line-height: 36px;
-        @include breakpoint(xsmall){
-            font-size: 16px;
-            line-height: 24px;
+        font-family: 'Sk-Modernist';
+        font-size: 64px;
+        font-weight: 400;
+        letter-spacing: -0.2px;
+        line-height: 70px;
+        &--black{
+            color: $black-dark;
+        }
+        &--grey{
+            color: $black-light;
+        }
+        &--purple{
+            color: $purple-regular;
         }
         &--white{
             color: $white;
-        }
-        &--orange{
-            color: $orange;
-        }
-        &--blue{
-            color: $blue;
         }
     }
     &--two{
-        font-family: Montserrat;
-        font-size: 28px;
-        font-weight: 500;
-        letter-spacing: -0.5px;
-        @include breakpoint(xsmall){
-            font-size: 20px;
+        font-family: Sk-Modernist;
+        font-weight: 600;
+        font-size: 32px;
+        letter-spacing: -0.2px;
+        line-height: 40px;
+        &--black{
+            color: $black-dark;
+        }
+        &--grey{
+            color: $black-light;
+        }
+        &--purple{
+            color: $purple-regular;
         }
         &--white{
             color: $white;
-        }
-        &--orange{
-            color: $orange;
-        }
-        &--blue{
-            color: $blue;
         }
     }
 }
-.subtitle{
-    &--lined{
-        color: transparent;
-        -webkit-text-stroke-width: 1px;
-        -webkit-text-stroke-color: $orange;
-        font-family: Montserrat;
-        font-weight: 600;
-        font-size: 24px;
-        letter-spacing: -0.5px;
-        line-height: 36px;
-    }
-    &--one{
-        font-family: Montserrat;
-        font-size: 14px;
-        font-weight: 300;
-        letter-spacing: 2px;
-        text-transform: uppercase;
-        @include breakpoint(xsmall){
-            font-size: 12px;
-        }
-        &--white{
-            color: $white;
-        }
-        &--orange{
-            color: $orange;
-        }
-        &--blue{
-            color: $blue;
-        }
-    }
-    &--two{
-        font-family: Montserrat;
+.paragraph{
+    &--20{
+        font-family: Aeonik;
         font-size: 20px;
-        font-weight: 500;
-        letter-spacing: -0.5px;
-        @include breakpoint(xsmall){
-            font-size: 16px;
+        font-weight: 400;
+        letter-spacing: -0.2px;
+        line-height: 36px;
+        &--black{
+            color: $black-dark;
+        }
+        &--grey{
+            color: $black-light;
+        }
+        &--purple{
+            color: $purple-regular;
         }
         &--white{
             color: $white;
         }
-        &--orange{
-            color: $orange;
+    }
+    &--16{
+        font-family: Aeonik;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: -0.2px;
+        line-height: 32px;
+        &--black{
+            color: $black-dark;
         }
-        &--blue{
-            color: $blue;
+        &--grey{
+            color: $black-light;
+        }
+        &--purple{
+            color: $purple-regular;
+        }
+        &--white{
+            color: $white;
         }
     }
-}
-.txt-paragraph{
-    font-family: Montserrat;
-    font-size: 18px;
-    font-weight: 400;
-    letter-spacing: -0.5px;
-    line-height: 27px;
-    @include breakpoint(xsmall){
+    &--14{
+        font-family: Aeonik;
         font-size: 14px;
-        line-height: 21px;
-    }
-    @include breakpoint(medium){
-        font-size: 14px;
-        line-height: 21px;
-    }
-    &--white{
-        color: $white;
-    }
-    &--lightgrey{
-        color: $lightgrey;
-    }
-    &--darkgrey{
-        color: $darkgrey;
-    }
-    &--orange{
-        color: $orange;
-    }
-    &--blue{
-        color: $blue;
-    }
-    &--black{
-        color: $black;
-    }
-    &--strong{
-        font-weight: 500 !important;
-    }
-}
-.txt-style{
-    &--center{
-        text-align: center;
-    }
-    &--justify{
-        text-align: justify;
-    }
-    &--italic{
-        font-style: italic;
-    }
-    &--strong{
-        font-weight: 600;
-        &--orange{
-            color: $orange;
+        font-weight: 400;
+        letter-spacing: -0.2px;
+        line-height: 24px;
+        &--black{
+            color: $black-dark;
         }
-    }
-    &--filled{
-        color: $white;
-        &--orange{
-            color: $orange !important;
+        &--grey{
+            color: $black-light;
         }
-    }
-    &--link{
-        text-decoration: underline;
-    }
-}
-
-.txt-medium{
-    font-family: Montserrat;
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: -0.5px;
-    line-height: 21px;
-    @include breakpoint(xsmall){
-        font-size: 12px;
-        line-height: 18px;
-    }
-    &--white{
-        color: $white;
-    }
-    &--darkgrey{
-        color: $darkgrey;
-    }
-    &--lightgrey{
-        color: $lightgrey;
-    }
-}
-.txt-small{
-    font-family: Montserrat;
-    font-size: 12px;
-    font-weight: 400;
-    letter-spacing: -0.5px;
-    line-height: 27px;
-    @include breakpoint(xsmall){
-        font-size: 10px;
-    }
-    &--white{
-        color: $white;
-    }
-    &--darkgrey{
-        color: $darkgrey;
-    }
-    &--lightgrey{
-        color: $lightgrey;
+        &--purple{
+            color: $purple-regular;
+        }
+        &--white{
+            color: $white;
+        }
     }
 }

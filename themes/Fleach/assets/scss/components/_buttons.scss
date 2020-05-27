@@ -1,95 +1,13 @@
 .btn{
-    &--primary{
-        font-family: Montserrat;
-        font-size: 14px;
-        letter-spacing: 1px;
-        position: relative;
-        z-index: 2;
-        @include breakpoint(small){
-            font-size: 12px;
-        }
-        &--white{
-            color: $white;
-        }
-        &--blue{
-            color: $blue;
-        }
-        &:before{
-            content: '';
-            width: 95%;
-            position: absolute;
-            top: -8px;
-            bottom: -5px;
-            left: -8px;
-            background-color: $orange;
-            transform-origin: 0 50%;
-            transition: background-color 1s,transform 1s cubic-bezier(.5,0,0,1),-webkit-transform 1s cubic-bezier(.5,0,0,1);
-            transform: scaleX(0);
-            z-index: -1;
-        }
-        span{
-            position: absolute;
-            top: 50%;
-            right: 12px;
-            margin-top: -11px;
-            opacity: 0;
-            transition: opacity 1s,transform 1s cubic-bezier(.5,0,0,1);
-            transition-delay: 0s;
-            &:before{
-                content: '';
-                border-radius: 50%;
-                display: inline-block;
-                width: 3px;
-                height: 3px;
-                margin-right: 3px;
-                background-color: $orange;
-            }
-            &:after{
-                content: '';
-                border-radius: 50%;
-                display: inline-block;
-                width: 3px;
-                height: 3px;
-                background-color: $orange;
-            }
-        }
-        img{
-            transition: transform 1s cubic-bezier(.5,0,0,1);
-            position: relative;
-            margin-left: 15px;
-            top: 1px;
-        }
-        &:hover{
-            img{
-                transform: translateX(10px);
-            }
-            span{
-                transform: translateX(9px);
-                opacity: 1;
-                transition-delay: .15s;
-            }
-            &:before{
-                transform: scaleX(1);
-            }
-        }
-    }
-    &--secondary{
-        font-family: Montserrat;
-        font-size: 12px;
+    &--filled{
+        border-radius: 8px;
+        padding: 25px 32px;
+        box-sizing: border-box;
         color: $white;
-        letter-spacing: 1px;
-        background: $orange;
-        padding: 10px 15px;
-        border-radius: 4px;
-    }
-    &--border{
-        font-family: Montserrat;
-        font-size: 12px;
-        color: $orange;
-        letter-spacing: 1px;
-        background: transparent;
-        border: 2px solid $orange;
-        padding: 10px 15px;
-        border-radius: 4px;
+        font-family: Aeonik;
+        font-weight: 600;
+        &--dark{
+            background: $purple-dark;
+        }
     }
 }

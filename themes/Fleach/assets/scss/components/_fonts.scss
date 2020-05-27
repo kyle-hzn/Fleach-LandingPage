@@ -7,11 +7,12 @@
     }
   }
   
-  @include font-face(Montserrat, Montserrat-Light, 300, normal);
-  @include font-face(Montserrat, Montserrat-Regular, 400, normal);
-  @include font-face(Montserrat, Montserrat-Medium, 500, normal);
-  @include font-face(Montserrat, Montserrat-SemiBold, 600, normal);
+  @include font-face(Aeonik, Aeonik-Regular, 400, normal);
+  @include font-face(Aeonik, Aeonik-Medium, 500, normal);
+  @include font-face(Aeonik, Aeonik-Bold, 600, normal);
+  @include font-face(Sk-Modernist, Sk-Modernist-Regular, 400, normal);
+  @include font-face(Sk-Modernist, Sk-Modernist-Bold, 600, normal);
   
   body {
-    font-family: Montserrat;
+    font-family: Aeonik;
   }
