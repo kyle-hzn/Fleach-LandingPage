@@ -1,0 +1,69 @@
+.hero{
+  height: 100vh;
+  &__wrapper{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    @include breakpoint(small){
+      flex-direction: column;
+      justify-content: center;
+      padding-top: 20px;
+    }
+  }
+  &__intro{
+    width: 40%;
+    z-index: 2;
+    @include breakpoint(small){
+      width: 100%;
+    }
+    &:before{
+      content: url(http://localhost:8888/FleachLP/wp-content/themes/Fleach/dist/img/shape-hero.svg);
+      position: absolute;
+      left: -20%;
+      top: 0;
+      z-index: -1;
+      @include breakpoint(small){
+        left: -100%;
+      }
+    }
+  }
+  &__title{
+    white-space: pre-line;
+  }
+  &__subtitle{
+    padding-left: 32px;
+    position: relative;
+    &:before{
+      content: '';
+      height: 100%;
+      width: 1px;
+      background-color: $purple-regular;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+    }
+  }
+  &__board{
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    right: -10%;
+    top: -10%;
+    z-index: -1;
+    @include breakpoint(small){
+      width: 100%;
+      right: 0;
+      top: 100%;
+      overflow: hidden;
+    }
+    &__img{
+      max-width: 100%;
+      height: auto;
+      @include breakpoint(small){
+        transform: scale(1.5);
+        height: 80%;
+        object-fit: cover;
+      }
+    }
+  }
+}

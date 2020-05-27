@@ -11,6 +11,8 @@ gulp_rename       = require('gulp-rename'),
 gulp_plumber      = require('gulp-plumber'),
 gulp_notify       = require('gulp-notify'),
 gulp_sourcemaps   = require('gulp-sourcemaps'),
+// Image depedency
+gulp_imagemin     = require('gulp-imagemin'),
 // Style dependencies
 gulp_sass         = require('gulp-sass'),
 gulp_autoprefixer = require('gulp-autoprefixer'),
@@ -57,6 +59,13 @@ gulp.task('javascript', () => {
     .pipe(gulp.dest(`${config.dist}js`))
 })
 
+// Minifies images
+gulp.task('images', () => {
+  return gulp.src(`${config.assets}images/*`)
+    .pipe(gulp_imagemin())
+    .pipe(gulp.dest(`${config.dist}img`))
+    .pipe(gulp_notify('minified !'))
+})
 
 // Replace font into dist folder
 gulp.task('fonts', () => {
@@ -65,9 +74,10 @@ gulp.task('fonts', () => {
 })
 
 // Watch all my task
-gulp.task('watch', gulp.parallel('style', 'javascript', 'fonts', function watching(){
+gulp.task('watch', gulp.parallel('style', 'javascript', 'images', 'fonts', function watching(){
   gulp.watch(`${config.scss}**/*.scss`, gulp.series('style'))
   gulp.watch(`${config.js}**/*.js`, gulp.series('javascript'))
+  gulp.watch(`${config.assets}images/*`, gulp.series('images'))
   gulp.watch(`${config.assets}fonts/*`, gulp.series('fonts'))
 }))
 

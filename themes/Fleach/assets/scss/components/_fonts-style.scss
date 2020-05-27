@@ -1,99 +1,107 @@
 .title{
-    &--one{
-        font-family: 'Sk-Modernist';
-        font-size: 64px;
-        font-weight: 400;
-        letter-spacing: -0.2px;
-        line-height: 70px;
-        &--black{
-            color: $black-dark;
-        }
-        &--grey{
-            color: $black-light;
-        }
-        &--purple{
-            color: $purple-regular;
-        }
-        &--white{
-            color: $white;
-        }
+  &--one{
+    font-family: 'Sk-Modernist';
+    font-size: 64px;
+    font-weight: 400;
+    letter-spacing: -0.2px;
+    line-height: 70px;
+    &--black{
+        color: $black-dark;
     }
-    &--two{
-        font-family: Sk-Modernist;
-        font-weight: 600;
-        font-size: 32px;
-        letter-spacing: -0.2px;
-        line-height: 40px;
-        &--black{
-            color: $black-dark;
-        }
-        &--grey{
-            color: $black-light;
-        }
-        &--purple{
-            color: $purple-regular;
-        }
-        &--white{
-            color: $white;
-        }
+    &--grey{
+        color: $black-light;
     }
+    &--purple{
+        color: $purple-regular;
+    }
+    &--white{
+        color: $white;
+    }
+  }
+  &--two{
+    font-family: Sk-Modernist;
+    font-weight: 600;
+    font-size: 32px;
+    letter-spacing: -0.2px;
+    line-height: 40px;
+    &--black{
+        color: $black-dark;
+    }
+    &--grey{
+        color: $black-light;
+    }
+    &--purple{
+        color: $purple-regular;
+    }
+    &--white{
+        color: $white;
+    }
+  }
 }
 .paragraph{
-    &--20{
-        font-family: Aeonik;
-        font-size: 20px;
-        font-weight: 400;
-        letter-spacing: -0.2px;
-        line-height: 36px;
-        &--black{
-            color: $black-dark;
-        }
-        &--grey{
-            color: $black-light;
-        }
-        &--purple{
-            color: $purple-regular;
-        }
-        &--white{
-            color: $white;
-        }
+  &--20{
+    font-family: Aeonik;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -0.2px;
+    line-height: 36px;
+    &--black{
+        color: $black-dark;
     }
-    &--16{
-        font-family: Aeonik;
-        font-size: 16px;
-        font-weight: 400;
-        letter-spacing: -0.2px;
-        line-height: 32px;
-        &--black{
-            color: $black-dark;
-        }
-        &--grey{
-            color: $black-light;
-        }
-        &--purple{
-            color: $purple-regular;
-        }
-        &--white{
-            color: $white;
-        }
+    &--grey{
+        color: $black-light;
     }
-    &--14{
-        font-family: Aeonik;
-        font-size: 14px;
-        font-weight: 400;
-        letter-spacing: -0.2px;
-        line-height: 24px;
-        &--black{
-            color: $black-dark;
-        }
-        &--grey{
-            color: $black-light;
-        }
-        &--purple{
-            color: $purple-regular;
-        }
-        &--white{
-            color: $white;
-        }
+    &--purple{
+        color: $purple-regular;
     }
+    &--white{
+        color: $white;
+    }
+  }
+  &--16{
+    font-family: Aeonik;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.2px;
+    line-height: 32px;
+    &--black{
+        color: $black-dark;
+    }
+    &--grey{
+        color: $black-light;
+    }
+    &--purple{
+        color: $purple-regular;
+    }
+    &--white{
+        color: $white;
+    }
+  }
+  &--14{
+    font-family: Aeonik;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.2px;
+    line-height: 24px;
+    &--black{
+        color: $black-dark;
+    }
+    &--grey{
+        color: $black-light;
+    }
+    &--purple{
+        color: $purple-regular;
+    }
+    &--white{
+        color: $white;
+    }
+  }
+}
+.text{
+  &--strong{
+    font-weight: 600;
+  }
+  &--purple{
+    color: $purple-regular;
+  }
 }
