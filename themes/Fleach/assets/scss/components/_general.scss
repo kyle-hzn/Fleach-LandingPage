@@ -34,3 +34,20 @@ a{
       width: 1170px;
     }
   }
+.d-none{
+  &--large{
+    @include breakpoint(large){
+      display: none;
+    }
+  }
+  &--tablet{
+    @include breakpoint(tablet){
+      display: none;
+    }
+  }
+  &--mobile{
+    @include breakpoint(small){
+      display: none;
+    }
+  }
+}
