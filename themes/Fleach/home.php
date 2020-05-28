@@ -142,4 +142,26 @@
         </div>
     </div>
 </div>
+<div class="container contact mb--200">
+    <div class="contact__wrapper">
+        <div class="contact__l">
+            <h3 class="title--two title--two--black">
+                Vous souhaitez en savoir plus ou avez une question sur le produit ?<br>Contactez-nous.
+            </h3>
+        </div>
+        <div class="contact__r">
+            <div class="contact__form">
+                <input type="text" class="input--text mb--10" placeholder="Votre nom">
+                <input type="mail" class="input--text mb--10" placeholder="Votre adresse mail">
+                <textarea name="message" class="input--textarea mb--20" placeholder="Votre message"></textarea>
+                <label class="input--checkbox__label mb--20">
+                    <input type="checkbox" name="checkbox" class="input--checkbox__check">
+                    En remplissant ce formulaire, vous acceptez les termes et conditions d’utilisation. Conformément à la loi « informatique et libertés », vous pouvez exercer votre droit d’accès aux données vous concernant et les faire rectifier en contactant : contact@fleach.fr
+                </label>
+                <input type="submit" id="contact__submit">
+                <label for="contact__submit" class="btn--filled btn--filled--regular">Envoyer</label>
+            </div>
+        </div>
+    </div>
+</div>
 <?php get_template_part('partials/footer'); ?>

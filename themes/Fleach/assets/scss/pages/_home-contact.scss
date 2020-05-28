@@ -1,0 +1,23 @@
+.contact{
+  &__wrapper{
+    display: flex;
+    justify-content: space-between;
+    @include breakpoint(small){
+      flex-direction: column;
+    }
+  }
+  &__l{
+    width: 50%;
+    padding-right: 5vw;
+    @include breakpoint(small){
+      width: 100%;
+      margin-bottom: 40px;
+    }
+  }
+  &__r{
+    width: 50%;
+    @include breakpoint(small){
+      width: 100%;
+    }
+  }
+}

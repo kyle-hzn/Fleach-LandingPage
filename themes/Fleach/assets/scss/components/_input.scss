@@ -6,7 +6,6 @@
   }
   &--news{
     height: 64px;
-    border: none;
     background: $grey-light;
     border-radius: 8px;
     flex-grow: 2;
@@ -70,6 +69,85 @@
       }
     }
   }
+  &--text{
+    height: 64px;
+    width: 100%;
+    background: $grey-light;
+    border-radius: 8px;
+    outline: none;
+    padding-left: 24px;
+    box-sizing: border-box;
+    font-family: Aeonik;
+    font-size: 14px;
+    font-weight: 500;
+    color: $purple-regular;
+    transition: ease-in 0.5s border;
+    border: 1px solid $grey-light;
+    &:focus{
+      border: 1px solid $purple-regular;
+    }
+    &::-webkit-input-placeholder{
+      font-family: Aeonik;
+      font-size: 14px;
+      color: $black-light;
+    }
+  }
+  &--textarea{
+    padding: 24px;
+    box-sizing: border-box;
+    height: 150px;
+    width: 100%;
+    background: $grey-light;
+    border-radius: 8px;
+    outline: none;
+    font-family: Aeonik;
+    font-size: 14px;
+    font-weight: 500;
+    color: $purple-regular;
+    transition: ease-in 0.5s border;
+    border: 1px solid $grey-light;
+    resize: none;
+    &:focus{
+      border: 1px solid $purple-regular;
+    }
+    &::-webkit-input-placeholder{
+      font-family: Aeonik;
+      font-size: 14px;
+      color: $black-light;
+    }
+  }
+  &--checkbox{
+    &__label{
+      font-family: Aeonik;
+      font-size: 12px;
+      color: $grey-dark;
+      letter-spacing: 0;
+      line-height: 18px;
+      display: block;
+    }
+    &__check{
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      -ms-appearance: none;
+      background: rgba(255,255,255,0.00);
+      border: 2px solid #5A67E3;
+      border-radius: 4px;
+      width: 18px;
+      height: 18px;
+      box-shadow:inset 0px 0px 0px 2px $white;
+      outline: none;
+      padding: 0;
+      margin-right: 10px;
+      vertical-align: bottom;
+      position: relative;
+      &:checked{
+        background-color: $purple-regular;
+      }
+    }
+  }
+}
+#contact__submit{
+  display: none;
 }
 #hero__newsform__submit{
   display: none;
