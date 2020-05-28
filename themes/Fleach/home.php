@@ -79,7 +79,7 @@
             </div>
         </div>
     </div>
-    <div class="product__wrapper mb--200">
+    <div class="product__wrapper mb--400">
         <div class="product__l">
             <div class="product__shape product__shape--regular">
                 <img class="product__mockup product__mockup--top" src="<?= IMAGES_URL.'/investisseurs-offer.png'?>" alt="investisseurs offre">
@@ -98,6 +98,45 @@
                 </li>
                 <li class="product__list__chip paragraph--20 paragraph--20--grey">
                     <span>Faitez une offre financière, finalisez l’accord par une lettre d’intention.</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="container pricing mb--200">
+    <div class="pricing__wrapper">
+        <div class="pricing__l">
+            <h3 class="title--one title--one--black mb--20">
+                Une <strong class="text--strong text--purple">offre</strong> adapté <strong class="text--strong">à vos besoins</strong>
+            </h3>
+            <p class="paragraph--16 paragraph--16--black">
+                L’offre qui vous correspond le mieux, profitez d’une <strong class="text--purple text--strong">période d’essai de 30 jours</strong> pour tester notre produit et ses diverses fonctionnalités
+            </p>
+        </div>
+        <div class="pricing__r">
+            <h3 class="title--two title--two--black">
+                Premium
+            </h3>
+            <div class="pricing__price mb--20">
+                <h4 class="pricing__price__nb mr--10">
+                    12,99 €
+                </h4>
+                <p class="paragraph--16 paragraph--16--grey">
+                    /mois
+                </p>
+            </div>
+            <ul class="pricing__list">
+                <li class="pricing__list__chip paragraph--16 paragraph--16--grey">
+                    <span>Entrées illimités pour accéder aux lives des entrepreneurs</span>
+                </li>
+                <li class="pricing__list__chip paragraph--16 paragraph--16--grey">
+                    <span>Matching avec des projets selon vos domaines d’activités de prédilection</span>
+                </li>
+                <li class="pricing__list__chip paragraph--16 paragraph--16--grey">
+                    <span>Accès à tous les pitchs vidéo des projets</span>
+                </li>
+                <li class="pricing__list__chip paragraph--16 paragraph--16--grey">
+                    <span>Aucune publicité</span>
                 </li>
             </ul>
         </div>

@@ -58,6 +58,9 @@
     list-style-position: inside;
     list-style: none;
     &__chip{
+      @include breakpoint(small){
+        max-width: 90%;
+      }
       &:before{
         content: "\2022";
         color: $purple-regular;
@@ -65,9 +68,6 @@
       span{
         position: relative;
         left: 24px;
-        @include breakpoint(small){
-          left: 4px;
-        }
       }
     }
   }

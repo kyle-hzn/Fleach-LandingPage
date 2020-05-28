@@ -1,0 +1,58 @@
+.pricing{
+  &__wrapper{
+    background: $purple-light;
+    border-radius: 25px;
+    padding: 100px 80px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    @include breakpoint(small){
+      padding: 60px 40px;
+      flex-direction: column;
+    }
+  }
+  &__l{
+    width: 60%;
+    padding: 0 10vw 0 0;
+    @include breakpoint(small){
+      width: 100%;
+      padding: 0 0 20vw 0;
+    }
+  }
+  &__r{
+    width: 40%;
+    @include breakpoint(small){
+      width: 100%;
+    }
+  }
+  &__price{
+    display: flex;
+    align-items: flex-end;
+    &__nb{
+      font-family: Aeonik;
+      font-size: 54px;
+      font-weight: 600;
+      color: $black-dark;
+      letter-spacing: -0.2px;
+    }
+  }
+  &__list{    
+    list-style-position: inside;
+    list-style: none;
+    &__chip{
+      position: relative;
+      @include breakpoint(small){
+        max-width: 90%;
+      }
+      &:before{
+        content: url(http://localhost:8888/FleachLP/wp-content/themes/Fleach/dist/img/checkmark-icon.svg);
+        position: absolute;
+        left: 0;
+      }
+      span{
+        position: relative;
+        left: 24px;
+      }
+    }
+  }
+}
