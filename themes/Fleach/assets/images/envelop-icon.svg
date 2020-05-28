@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="12px" viewBox="0 0 17 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>envelop-icon</title>
+    <defs>
+        <path d="M15.3422932,2.66666667 L1.38524964,2.66666667 C0.627282855,2.66666667 0,3.26760563 0,3.99374022 L0,12.0062598 C0,12.7323944 0.627282855,13.3333333 1.38524964,13.3333333 L15.3161564,13.3333333 C16.0741232,13.3333333 16.701406,12.7323944 16.701406,12.0062598 L16.701406,3.99374022 C16.7275428,3.26760563 16.10026,2.66666667 15.3422932,2.66666667 Z M13.6695389,3.99374022 L8.65127605,6.92331768 C8.52059212,6.99843505 8.31149783,6.99843505 8.15467712,6.92331768 L3.05800392,3.99374022 L13.6695389,3.99374022 Z M1.38524964,12.0062598 L1.38524964,4.59467919 L7.37057355,8.07511737 C7.65807819,8.27543036 7.9978564,8.35054773 8.33763462,8.35054773 C8.67741283,8.35054773 9.04332783,8.27543036 9.30469569,8.07511737 L15.2900196,4.59467919 L15.2900196,12.0062598 L1.38524964,12.0062598 Z" id="path-1"></path>
+    </defs>
+    <g id="Ok" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage" transform="translate(-174.000000, -609.000000)">
+            <g id="HeroSection" transform="translate(-394.000000, -331.000000)">
+                <g id="HeroText" transform="translate(544.000000, 542.000000)">
+                    <g id="Input" transform="translate(0.000000, 372.000000)">
+                        <g id="Input/Text-Icon">
+                            <g id="Icon/Envelop" transform="translate(24.000000, 24.000000)">
+                                <rect id="Wrap" x="0" y="0" width="16.7021944" height="16"></rect>
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <use id="Shape" fill="#545454" fill-rule="nonzero" xlink:href="#path-1"></use>
+                                <g id="Color/DarkLight" mask="url(#mask-2)" fill="#545454" fill-rule="evenodd">
+                                    <rect id="Rectangle" x="0" y="0" width="16.7021944" height="16"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

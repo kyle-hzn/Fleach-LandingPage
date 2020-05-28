@@ -1,0 +1,57 @@
+.product{
+  &__wrapper{
+    display: flex;
+    align-items: center;
+    @include breakpoint(small){
+      flex-direction: column;
+    }
+  }
+  &__l{
+    padding: 0 8vw 0 0;
+    @include breakpoint(small){
+      padding: 0 0 50% 0;
+    }
+  }
+  &__shape{
+    border-radius: 25px;
+    width: 28vw;
+    height: 28vw;
+    position: relative;
+    @include breakpoint(small){
+      width: 90vw;
+      height: 90vw;
+    }
+    &--light{
+      background-color: $purple-light;
+      background-image: url(http://localhost:8888/FleachLP/wp-content/themes/Fleach/dist/img/shape-light.svg);
+      background-repeat: no-repeat;
+      background-position: -100% -100%;
+    }
+  }
+  &__mockup{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,50px);
+    @include breakpoint(small){
+      width: 60%;
+      height: auto;
+    }
+  }
+  &__list{    
+    list-style-position: inside;
+    list-style: none;
+    &__chip{
+      &:before{
+        content: "\2022";
+        color: $purple-regular;
+      }
+      span{
+        position: relative;
+        left: 24px;
+        @include breakpoint(small){
+          left: 4px;
+        }
+      }
+    }
+  }
+}

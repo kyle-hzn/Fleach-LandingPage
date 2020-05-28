@@ -11,10 +11,20 @@
     border-radius: 8px;
     flex-grow: 2;
     outline: none;
-    padding-left: 24px;
+    padding-left: 54px;
     font-family: Aeonik;
     font-size: 14px;
-    color: $black-dark;
+    font-weight: 500;
+    color: $purple-regular;
+    transition: ease-in 0.5s border;
+    border: 1px solid $grey-light;
+    position: relative;
+    background-image: url(http://localhost:8888/FleachLP/wp-content/themes/Fleach/dist/img/envelop-icon.svg);
+    background-position: 24px;
+    background-repeat: no-repeat;
+    &:focus{
+      border: 1px solid $purple-regular;
+    }
     &::-webkit-input-placeholder{
       font-family: Aeonik;
       font-size: 14px;
@@ -32,6 +42,32 @@
       cursor: pointer;
       position: absolute;
       right: 4px;
+      transition: ease-in-out 0.3s all;
+      overflow: hidden;
+      &__img1{
+        position: absolute;
+        transform: translateX(-3vw);
+        transition: ease-in-out 0.3s all;
+        @include breakpoint(small){
+          transform: translateX(-13vw);
+        }
+      }
+      &__img2{
+        transform: translateX(0vw);
+        transition: ease-in-out 0.3s all;
+      }
+      &:hover{
+        background-color: $purple-dark;
+        .input--news__submit__img1{
+          transform: translateX(0vw);
+        }
+        .input--news__submit__img2{
+          transform: translateX(3vw);
+          @include breakpoint(small){
+            transform: translateX(13vw);
+          }
+        }
+      }
     }
   }
 }

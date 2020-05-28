@@ -5,6 +5,10 @@
     font-weight: 400;
     letter-spacing: -0.2px;
     line-height: 70px;
+    @include breakpoint(small){
+      font-size: 48px;
+      line-height: 56px;
+    }
     &--black{
         color: $black-dark;
     }
@@ -24,6 +28,10 @@
     font-size: 32px;
     letter-spacing: -0.2px;
     line-height: 40px;
+    @include breakpoint(small){
+    font-size: 24px;
+    line-height: 28px;
+    }
     &--black{
         color: $black-dark;
     }
@@ -45,6 +53,10 @@
     font-weight: 400;
     letter-spacing: -0.2px;
     line-height: 36px;
+    @include breakpoint(small){
+      font-size: 16px;
+      line-height: 28px;
+    }
     &--black{
         color: $black-dark;
     }
@@ -64,6 +76,10 @@
     font-weight: 400;
     letter-spacing: -0.2px;
     line-height: 32px;
+    @include breakpoint(small){
+      font-size: 14px;
+      line-height: 28px;
+    }
     &--black{
         color: $black-dark;
     }
