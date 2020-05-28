@@ -27,10 +27,10 @@
     </div>
 </div>
 <div class="container product">
-    <div class="product__wrapper">
+    <div class="product__wrapper mb--400">
         <div class="product__l">
             <div class="product__shape product__shape--light">
-                <img class="product__mockup" src="<?= IMAGES_URL.'/investisseurs-filtres.png'?>" alt="investisseurs filtres">
+                <img class="product__mockup product__mockup--top" src="<?= IMAGES_URL.'/investisseurs-filtres.png'?>" alt="investisseurs filtres">
             </div>
         </div>
         <div class="product__r">
@@ -42,13 +42,62 @@
                     <span>Filtrez les projets et paramétrez des alertes</span>
                 </li>
                 <li class="product__list__chip paragraph--20 paragraph--20--grey">
-                    <span>Matching de projet optimisé selon vos centres d’intérêts </span>
+                    <span>Matching de projet optimisé selon vos centres d’intérêts</span>
                 </li>
                 <li class="product__list__chip paragraph--20 paragraph--20--grey">
                     <span>Définissez votre montant de ticket d’investissement</span>
                 </li>
                 <li class="product__list__chip paragraph--20 paragraph--20--grey">
-                    <span>Des vidéos d’une minute qui récapitule l’ensemble des points clés du projet. </span>
+                    <span>Des vidéos d’une minute qui récapitule l’ensemble des points clés du projet</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="product__wrapper mb--200">
+        <div class="product__l">
+            <h3 class="title--two title--two--black mb--20">
+                Échangez avec l’entrepreneur en live vidéo sur tous les aspects de son projet et ses objectifs.
+            </h3>
+            <ul class="product__list">
+                <li class="product__list__chip paragraph--20 paragraph--20--grey">
+                    <span>Rencontrez le(s) porteur(s) du projet grâce à un live vidéo</span>
+                </li>
+                <li class="product__list__chip paragraph--20 paragraph--20--grey">
+                    <span>Découvrez des projets innovants d’entrepreneurs</span>
+                </li>
+                <li class="product__list__chip paragraph--20 paragraph--20--grey">
+                    <span>Posez vos questions en direct via le chat</span>
+                </li>
+                <li class="product__list__chip paragraph--20 paragraph--20--grey">
+                    <span>Analysez comment rentabiliser cotre investissement</span>
+                </li>
+            </ul>
+        </div>
+        <div class="product__r">
+            <div class="product__shape product__shape--dark">
+                <img class="product__mockup product__mockup--btm" src="<?= IMAGES_URL.'/investisseurs-live.png'?>" alt="investisseurs live">
+            </div>
+        </div>
+    </div>
+    <div class="product__wrapper mb--200">
+        <div class="product__l">
+            <div class="product__shape product__shape--regular">
+                <img class="product__mockup product__mockup--top" src="<?= IMAGES_URL.'/investisseurs-offer.png'?>" alt="investisseurs offre">
+            </div>
+        </div>
+        <div class="product__r">
+            <h3 class="title--two title--two--black mb--20">
+                Faites part de votre intérêt aux entrepreneurs qui vous ont potentiellement convaincu.
+            </h3>
+            <ul class="product__list">
+                <li class="product__list__chip paragraph--20 paragraph--20--grey">
+                    <span>Planifiez un live supplémentaire avec le(s) entrepreneur(s)</span>
+                </li>
+                <li class="product__list__chip paragraph--20 paragraph--20--grey">
+                    <span>Négociez selon vos méthodes et critères</span>
+                </li>
+                <li class="product__list__chip paragraph--20 paragraph--20--grey">
+                    <span>Faitez une offre financière, finalisez l’accord par une lettre d’intention.</span>
                 </li>
             </ul>
         </div>

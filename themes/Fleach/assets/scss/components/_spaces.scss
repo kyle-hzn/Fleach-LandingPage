@@ -23,6 +23,12 @@
             margin-bottom: 100px;
         }
     }
+    &--400{
+        margin-bottom: 400px;
+        @include breakpoint(xsmall){
+            margin-bottom: 100px;
+        }
+    }
 }
 .mt{
     &--100{

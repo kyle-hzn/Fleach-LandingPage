@@ -27,11 +27,28 @@
       background-repeat: no-repeat;
       background-position: -100% -100%;
     }
+    &--dark{
+      background-color: #1A29BA;
+      background-image: url(http://localhost:8888/FleachLP/wp-content/themes/Fleach/dist/img/shape-dark.svg);
+      background-repeat: no-repeat;
+      background-position: -100% 50%;
+    }
+    &--regular{
+      background-color: $purple-regular;
+      background-image: url(http://localhost:8888/FleachLP/wp-content/themes/Fleach/dist/img/shape-regular.svg);
+      background-repeat: no-repeat;
+      background-position: 150% 100%;
+    }
   }
   &__mockup{
     position: absolute;
     left: 50%;
-    transform: translate(-50%,50px);
+    &--top{
+      transform: translate(-50%,50px);
+    }
+    &--btm{
+      transform: translate(-50%,-150px);
+    }
     @include breakpoint(small){
       width: 60%;
       height: auto;
