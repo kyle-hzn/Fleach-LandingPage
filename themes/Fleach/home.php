@@ -15,11 +15,9 @@
             <h2 class="paragraph--16 paragraph--16--grey hero__subtitle mb--40">
                 Fleach simplifie le quotidien des business angels en optimisant le sourcing de projets qualifiées au travers de rencontre vidéo avec des entrepereneurs innovants
             </h2>
-            <form action="#" class="input--newsform">
-                <input class="input--news" type="mail" placeholder="S’inscrire à la waitlist">
-                <input id="hero__newsform__submit" type="submit">
-                <label for="hero__newsform__submit" class="input--news__submit"><img class="input--news__submit__img1" src="<?= IMAGES_URL.'/WhiteArrow.svg'?>" alt="valider"><img class="input--news__submit__img2" src="<?= IMAGES_URL.'/WhiteArrow.svg'?>" alt="valider"></label>
-            </form>
+            <div class="input--newsform">
+                <?php echo do_shortcode( '[wpforms id="5" title="false" description="false"]' ); ?>
+            </div>
         </div>
         <div class="hero__board">
             <img class="hero__board__img" src="<?= IMAGES_URL.'/invest-board.png'?>" alt="investisseurs">
@@ -119,7 +117,7 @@
             </h3>
             <div class="pricing__price mb--20">
                 <h4 class="pricing__price__nb mr--10">
-                    12,99 €
+                    14,99 €
                 </h4>
                 <p class="paragraph--16 paragraph--16--grey">
                     /mois
@@ -151,7 +149,7 @@
         </div>
         <div class="contact__r">
             <div class="contact__form">
-                <input type="text" class="input--text mb--10" placeholder="Votre nom">
+                <!-- <input type="text" class="input--text mb--10" placeholder="Votre nom">
                 <input type="mail" class="input--text mb--10" placeholder="Votre adresse mail">
                 <textarea name="message" class="input--textarea mb--20" placeholder="Votre message"></textarea>
                 <label class="input--checkbox__label mb--20">
@@ -159,7 +157,24 @@
                     En remplissant ce formulaire, vous acceptez les termes et conditions d’utilisation. Conformément à la loi « informatique et libertés », vous pouvez exercer votre droit d’accès aux données vous concernant et les faire rectifier en contactant : contact@fleach.fr
                 </label>
                 <input type="submit" id="contact__submit">
-                <label for="contact__submit" class="btn--filled btn--filled--regular">Envoyer</label>
+                <label for="contact__submit" class="btn--filled btn--filled--regular">Envoyer</label> -->
+                <?php echo do_shortcode( '[wpforms id="7" title="false" description="false"]' ); ?>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="download">
+    <div class="container">
+        <div class="download__wrapper">
+            <div class="download__l">
+                <h4 class="title--two title--two--white">
+                    Inscrivez-vous pour commencer et profitez de 30 jours d’essai gratuit
+                </h4>
+            </div>
+            <div class="download__r">
+                <div class="input--newsform">
+                    <?php echo do_shortcode( '[wpforms id="6" title="false" description="false"]' ); ?>
+                </div>
             </div>
         </div>
     </div>

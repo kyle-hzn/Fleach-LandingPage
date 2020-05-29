@@ -1,74 +1,74 @@
 .input{
   &--newsform{
-    display:flex;
-    align-items: center;
-    position: relative;
+    display:flex !important;
+    align-items: center !important;
+    position: relative !important;
   }
-  &--news{
-    height: 64px;
-    background: $grey-light;
-    border-radius: 8px;
-    flex-grow: 2;
-    outline: none;
-    padding-left: 54px;
-    font-family: Aeonik;
-    font-size: 14px;
-    font-weight: 500;
-    color: $purple-regular;
-    transition: ease-in 0.5s border;
-    border: 1px solid $grey-light;
-    position: relative;
-    background-image: url(http://localhost:8888/FleachLP/wp-content/themes/Fleach/dist/img/envelop-icon.svg);
-    background-position: 24px;
-    background-repeat: no-repeat;
-    &:focus{
-      border: 1px solid $purple-regular;
-    }
-    &::-webkit-input-placeholder{
-      font-family: Aeonik;
-      font-size: 14px;
-      color: $black-light;
-    }
-    &__submit{
-      width: 60px;
-      height: 60px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background-color: $purple-regular;
-      border-radius: 8px;
-      -webkit-appearance: none;
-      cursor: pointer;
-      position: absolute;
-      right: 4px;
-      transition: ease-in-out 0.3s all;
-      overflow: hidden;
-      &__img1{
-        position: absolute;
-        transform: translateX(-3vw);
-        transition: ease-in-out 0.3s all;
-        @include breakpoint(small){
-          transform: translateX(-13vw);
-        }
-      }
-      &__img2{
-        transform: translateX(0vw);
-        transition: ease-in-out 0.3s all;
-      }
-      &:hover{
-        background-color: $purple-dark;
-        .input--news__submit__img1{
-          transform: translateX(0vw);
-        }
-        .input--news__submit__img2{
-          transform: translateX(3vw);
-          @include breakpoint(small){
-            transform: translateX(13vw);
-          }
-        }
-      }
-    }
-  }
+  // &--news{
+    // height: 64px !important;
+    // background: $grey-light !important;
+    // border-radius: 8px !important;
+    // flex-grow: 2 !important;
+    // outline: none !important;
+    // padding-left: 54px !important;
+    // font-family: Aeonik !important;
+    // font-size: 14px !important;
+    // font-weight: 500 !important;
+    // color: $purple-regular !important;
+    // transition: ease-in 0.5s border !important;
+    // border: 1px solid $grey-light !important;
+    // position: relative !important;
+    // background-image: url(http://localhost:8888/FleachLP/wp-content/themes/Fleach/dist/img/envelop-icon.svg) !important;
+    // background-position: 24px !important;
+    // background-repeat: no-repeat !important;
+    // &:focus{
+    //   border: 1px solid $purple-regular;
+    // }
+    // &::-webkit-input-placeholder{
+    //   font-family: Aeonik;
+    //   font-size: 14px;
+    //   color: $black-light;
+    // }
+    // &__submit{
+    //   width: 60px;
+    //   height: 60px;
+    //   display: flex;
+    //   align-items: center;
+    //   justify-content: center;
+    //   background-color: $purple-regular;
+    //   border-radius: 8px;
+    //   -webkit-appearance: none;
+    //   cursor: pointer;
+    //   position: absolute;
+    //   right: 4px;
+    //   transition: ease-in-out 0.3s all;
+    //   overflow: hidden;
+    //   &__img1{
+    //     position: absolute;
+    //     transform: translateX(-3vw);
+    //     transition: ease-in-out 0.3s all;
+    //     @include breakpoint(small){
+    //       transform: translateX(-13vw);
+    //     }
+    //   }
+    //   &__img2{
+    //     transform: translateX(0vw);
+    //     transition: ease-in-out 0.3s all;
+    //   }
+    //   &:hover{
+    //     background-color: $purple-dark;
+    //     .input--news__submit__img1{
+    //       transform: translateX(0vw);
+    //     }
+    //     .input--news__submit__img2{
+    //       transform: translateX(3vw);
+    //       @include breakpoint(small){
+    //         transform: translateX(13vw);
+    //       }
+    //     }
+    //   }
+    // }
+  // }
   &--text{
     height: 64px;
     width: 100%;
@@ -116,39 +116,252 @@
       color: $black-light;
     }
   }
-  &--checkbox{
-    &__label{
-      font-family: Aeonik;
-      font-size: 12px;
-      color: $grey-dark;
-      letter-spacing: 0;
-      line-height: 18px;
-      display: block;
-    }
-    &__check{
-      -webkit-appearance: none;
-      -moz-appearance: none;
-      -ms-appearance: none;
-      background: rgba(255,255,255,0.00);
-      border: 2px solid #5A67E3;
-      border-radius: 4px;
-      width: 18px;
-      height: 18px;
-      box-shadow:inset 0px 0px 0px 2px $white;
-      outline: none;
-      padding: 0;
-      margin-right: 10px;
-      vertical-align: bottom;
-      position: relative;
-      &:checked{
-        background-color: $purple-regular;
-      }
-    }
-  }
+  // &--checkbox{
+  //   &__label{
+  //     font-family: Aeonik;
+  //     font-size: 12px;
+  //     color: $grey-dark;
+  //     letter-spacing: 0;
+  //     line-height: 18px;
+  //     display: block;
+  //   }
+  //   &__check{
+  //     -webkit-appearance: none;
+  //     -moz-appearance: none;
+  //     -ms-appearance: none;
+  //     background: rgba(255,255,255,0.00);
+  //     border: 2px solid #5A67E3;
+  //     border-radius: 4px;
+  //     width: 18px;
+  //     height: 18px;
+  //     box-shadow:inset 0px 0px 0px 2px $white;
+  //     outline: none;
+  //     padding: 0;
+  //     margin-right: 10px;
+  //     vertical-align: bottom;
+  //     position: relative;
+  //     &:checked{
+  //       background-color: $purple-regular;
+  //     }
+  //   }
+  // }
 }
 #contact__submit{
   display: none;
 }
 #hero__newsform__submit{
   display: none;
+}
+#hero__newsform__submit2{
+  display: none;
+}
+
+.input--news{
+  input{
+    height: 64px !important;
+    background: $grey-light !important;
+    border-radius: 8px !important;
+    flex-grow: 2 !important;
+    outline: none !important;
+    padding: 0 0 0 54px !important;
+    font-family: Aeonik !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    color: $purple-regular !important;
+    transition: ease-in 0.5s border !important;
+    border: 1px solid $grey-light !important;
+    position: relative !important;
+    background-image: url(http://localhost:8888/FleachLP/wp-content/themes/Fleach/dist/img/envelop-icon.svg) !important;
+    background-position: 24px !important;
+    background-repeat: no-repeat !important;
+    &:focus{
+      border: 1px solid $purple-regular !important;
+    }
+    &::-webkit-input-placeholder{
+      font-family: Aeonik;
+      font-size: 14px;
+      color: $black-light;
+    }
+  }
+}
+.input--news__submit{
+  width: 60px !important;
+  height: 60px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center;
+  background-color: $purple-regular !important;
+  border-radius: 8px !important;
+  -webkit-appearance: none !important;
+  cursor: pointer !important;
+  position: absolute !important;
+  right: 2px !important;
+  transition: ease-in-out 0.3s all !important;
+  overflow: hidden !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  border: 0px !important;
+  &:before{
+    content: url(http://localhost:8888/FleachLP/wp-content/themes/Fleach/dist/img/arrow-icon.svg);
+    transform: translateX(-3vw);
+    position: absolute;
+    transition: ease-in-out 0.3s all !important;
+    @include breakpoint(small){
+      transform: translateX(-13vw);
+    }
+  }
+  &:after{
+    content: url(http://localhost:8888/FleachLP/wp-content/themes/Fleach/dist/img/arrow-icon.svg);
+    transform: translateX(0vw);
+    position: absolute;
+    transition: ease-in-out 0.3s all !important;
+  }
+  &:hover{
+    background-color: $purple-dark !important;
+    &:before{
+      transform: translateX(0vw);
+    }
+    &:after{
+      transform: translateX(3vw);
+      @include breakpoint(small){
+        transform: translateX(13vw);
+      }
+    }
+  }
+}
+.input--newsform{
+  form{
+    display:flex !important;
+    align-items: center !important;
+    position: relative !important;
+  }
+}
+div.wpforms-container-full {
+  margin-bottom: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+#wpforms-5-field_1-container{
+  width: 30vw !important;
+  @include breakpoint(small){
+    width: 90vw !important;
+  }
+}
+#wpforms-6-field_1-container{
+  width: 30vw !important;
+  @include breakpoint(small){
+    width: 90vw !important;
+  }
+}
+div.wpforms-container-full .wpforms-form .wpforms-field{
+  padding: 0 !important;
+  clear: none !important;
+}
+div.wpforms-container-full .wpforms-form button[type=submit]{
+  border: 0 !important;
+  padding: 0 !important;
+}
+.wpforms-error{
+  position: absolute !important;
+  padding: 12px 24px !important;
+}
+.wpforms-confirmation-container-full{
+  background: $purple-light !important;
+  border: 1px solid $purple-regular !important;
+  border-radius: 8px !important;
+  color: $purple-regular !important;
+  font-family: Aeonik !important;
+  line-height: 1.5 !important;
+  margin: 0 !important;
+  padding: 24px !important;
+}
+.input--text{
+  input{
+    height: 64px !important;
+    width: 100% !important;
+    background: $grey-light !important;
+    border-radius: 8px !important;
+    outline: none !important;
+    padding-left: 24px !important;
+    box-sizing: border-box !important;
+    font-family: Aeonik !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    color: $purple-regular !important;
+    transition: ease-in 0.5s border !important;
+    border: 1px solid $grey-light !important;
+    &:focus{
+      border: 1px solid $purple-regular !important;
+    }
+    &::-webkit-input-placeholder{
+      font-family: Aeonik !important;
+      font-size: 14px !important;
+      color: $black-light !important;
+    }
+  }
+}
+.wpforms-container .wpforms-field{
+  padding: 0 !important;
+}
+.input--textarea{
+  textarea{
+    padding: 24px !important;
+    box-sizing: border-box !important;
+    height: 150px !important;
+    width: 100% !important;
+    background: $grey-light !important;
+    border-radius: 8px !important;
+    outline: none !important;
+    font-family: Aeonik !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    color: $purple-regular !important;
+    transition: ease-in 0.5s border !important;
+    border: 1px solid $grey-light !important;
+    resize: none !important;
+    &:focus{
+      border: 1px solid $purple-regular !important;
+    }
+    &::-webkit-input-placeholder{
+      font-family: Aeonik !important;
+      font-size: 14px !important;
+      color: $black-light !important;
+    }
+  }
+}
+.wpforms-container input[type=checkbox], .wpforms-container input[type=radio]{
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  -ms-appearance: none !important;
+  background: rgba(255,255,255,0.00) !important;
+  border: 2px solid #5A67E3 !important;
+  border-radius: 4px !important;
+  width: 18px !important;
+  height: 18px !important;
+  box-shadow:inset 0px 0px 0px 2px $white !important;
+  outline: none !important;
+  padding: 0 !important;
+  margin-right: 10px !important;
+  vertical-align: bottom !important;
+  position: relative !important;
+  &:checked{
+    background-color: $purple-regular !important;
+  }
+}
+.wpforms-field-label-inline{
+  font-family: Aeonik !important;
+  font-size: 12px !important;
+  color: $grey-dark !important;
+  letter-spacing: 0 !important;
+  line-height: 18px !important;
+}
+#wpforms-confirmation-7{
+  p{
+    font-family: Aeonik !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    letter-spacing: -0.2px !important;
+    line-height: 28px !important;
+    color: $black-light !important;
+  }
 }
