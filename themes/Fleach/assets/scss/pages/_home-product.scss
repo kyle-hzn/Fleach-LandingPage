@@ -5,11 +5,25 @@
     @include breakpoint(small){
       flex-direction: column;
     }
+    @include breakpoint(tablet){
+      justify-content: space-between;
+    }
   }
   &__l{
     padding: 0 8vw 0 0;
     @include breakpoint(small){
       padding: 0 0 50% 0;
+    }
+  }
+  &__center{
+    @include breakpoint(tablet){
+      display: flex;
+      justify-content: center;
+    }
+  }
+  &__r{
+    @include breakpoint(tablet){
+      width: 50%;
     }
   }
   &__shape{
@@ -53,12 +67,19 @@
       width: 60%;
       height: auto;
     }
+    @include breakpoint(tablet){
+      width: 60%;
+      height: auto;
+    }
   }
   &__list{    
     list-style-position: inside;
     list-style: none;
     &__chip{
       @include breakpoint(small){
+        max-width: 90%;
+      }
+      @include breakpoint(tablet){
         max-width: 90%;
       }
       &:before{

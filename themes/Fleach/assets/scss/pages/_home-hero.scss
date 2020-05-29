@@ -4,7 +4,8 @@
     height: auto;
   }
   &__wrapper{
-    height: 100%;
+    height: calc(100% - 100px);
+    padding-top: 100px;
     display: flex;
     align-items: center;
     @include breakpoint(small){
@@ -67,6 +68,9 @@
         transform: scale(1.5) translateX(0);
         height: 80%;
         object-fit: cover;
+      }
+      @include breakpoint(tablet){
+        transform: scale(1) translate(0, 50%);
       }
     }
   }

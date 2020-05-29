@@ -8,34 +8,34 @@
 <div class="container hero mb--200">
     <div class="hero__wrapper">
         <div class="hero__intro">
-            <h1 class="title--one title--one--black hero__title mb--32">Visionnez,
+            <h1 class="title--one title--one--black hero__title mb--32 reveal">Visionnez,
                 Échangez,
                 <strong class="text--strong">Investissez</strong>.
             </h1>
-            <h2 class="paragraph--16 paragraph--16--grey hero__subtitle mb--40">
+            <h2 class="paragraph--16 paragraph--16--grey hero__subtitle mb--40 reveal2">
                 Fleach simplifie le quotidien des business angels en optimisant le sourcing de projets qualifiées au travers de rencontre vidéo avec des entrepereneurs innovants
             </h2>
-            <div class="input--newsform">
+            <div class="input--newsform reveal3">
                 <?php echo do_shortcode( '[wpforms id="5" title="false" description="false"]' ); ?>
             </div>
         </div>
-        <div class="hero__board">
+        <div class="hero__board reveal4">
             <img class="hero__board__img" src="<?= IMAGES_URL.'/invest-board.png'?>" alt="investisseurs">
         </div>
     </div>
 </div>
-<div class="container product">
+<div class="container product" id="produit">
     <div class="product__wrapper mb--400">
-        <div class="product__l">
+        <div class="product__l product__center reveal4">
             <div class="product__shape product__shape--light">
                 <img class="product__mockup product__mockup--top" src="<?= IMAGES_URL.'/investisseurs-filtres.png'?>" alt="investisseurs filtres">
             </div>
         </div>
         <div class="product__r">
-            <h3 class="title--two title--two--black mb--20">
+            <h3 class="title--two title--two--black mb--20 reveal">
                 Sourcez les projets pertinents qui vous intéresse en quelques minutes
             </h3>
-            <ul class="product__list">
+            <ul class="product__list reveal2">
                 <li class="product__list__chip paragraph--20 paragraph--20--grey">
                     <span>Filtrez les projets et paramétrez des alertes</span>
                 </li>
@@ -53,10 +53,10 @@
     </div>
     <div class="product__wrapper mb--200">
         <div class="product__l">
-            <h3 class="title--two title--two--black mb--20">
+            <h3 class="title--two title--two--black mb--20 reveal">
                 Échangez avec l’entrepreneur en live vidéo sur tous les aspects de son projet et ses objectifs.
             </h3>
-            <ul class="product__list">
+            <ul class="product__list reveal2">
                 <li class="product__list__chip paragraph--20 paragraph--20--grey">
                     <span>Rencontrez le(s) porteur(s) du projet grâce à un live vidéo</span>
                 </li>
@@ -71,23 +71,23 @@
                 </li>
             </ul>
         </div>
-        <div class="product__r">
+        <div class="product__r product__center reveal4">
             <div class="product__shape product__shape--dark">
                 <img class="product__mockup product__mockup--btm" src="<?= IMAGES_URL.'/investisseurs-live.png'?>" alt="investisseurs live">
             </div>
         </div>
     </div>
     <div class="product__wrapper mb--400">
-        <div class="product__l">
+        <div class="product__l reveal4">
             <div class="product__shape product__shape--regular">
                 <img class="product__mockup product__mockup--top" src="<?= IMAGES_URL.'/investisseurs-offer.png'?>" alt="investisseurs offre">
             </div>
         </div>
         <div class="product__r">
-            <h3 class="title--two title--two--black mb--20">
+            <h3 class="title--two title--two--black mb--20 reveal">
                 Faites part de votre intérêt aux entrepreneurs qui vous ont potentiellement convaincu.
             </h3>
-            <ul class="product__list">
+            <ul class="product__list reveal2">
                 <li class="product__list__chip paragraph--20 paragraph--20--grey">
                     <span>Planifiez un live supplémentaire avec le(s) entrepreneur(s)</span>
                 </li>
@@ -101,7 +101,7 @@
         </div>
     </div>
 </div>
-<div class="container pricing mb--200">
+<div class="container pricing mb--200 reveal" id="tarif">
     <div class="pricing__wrapper">
         <div class="pricing__l">
             <h3 class="title--one title--one--black mb--20">
@@ -140,24 +140,15 @@
         </div>
     </div>
 </div>
-<div class="container contact mb--200">
+<div class="container contact mb--200" id="contact">
     <div class="contact__wrapper">
-        <div class="contact__l">
+        <div class="contact__l reveal">
             <h3 class="title--two title--two--black">
                 Vous souhaitez en savoir plus ou avez une question sur le produit ?<br>Contactez-nous.
             </h3>
         </div>
-        <div class="contact__r">
+        <div class="contact__r reveal2">
             <div class="contact__form">
-                <!-- <input type="text" class="input--text mb--10" placeholder="Votre nom">
-                <input type="mail" class="input--text mb--10" placeholder="Votre adresse mail">
-                <textarea name="message" class="input--textarea mb--20" placeholder="Votre message"></textarea>
-                <label class="input--checkbox__label mb--20">
-                    <input type="checkbox" name="checkbox" class="input--checkbox__check">
-                    En remplissant ce formulaire, vous acceptez les termes et conditions d’utilisation. Conformément à la loi « informatique et libertés », vous pouvez exercer votre droit d’accès aux données vous concernant et les faire rectifier en contactant : contact@fleach.fr
-                </label>
-                <input type="submit" id="contact__submit">
-                <label for="contact__submit" class="btn--filled btn--filled--regular">Envoyer</label> -->
                 <?php echo do_shortcode( '[wpforms id="7" title="false" description="false"]' ); ?>
             </div>
         </div>
@@ -166,12 +157,12 @@
 <div class="download">
     <div class="container">
         <div class="download__wrapper">
-            <div class="download__l">
+            <div class="download__l reveal">
                 <h4 class="title--two title--two--white">
                     Inscrivez-vous pour commencer et profitez de 30 jours d’essai gratuit
                 </h4>
             </div>
-            <div class="download__r">
+            <div class="download__r reveal2">
                 <div class="input--newsform">
                     <?php echo do_shortcode( '[wpforms id="6" title="false" description="false"]' ); ?>
                 </div>

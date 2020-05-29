@@ -209,6 +209,9 @@
     @include breakpoint(small){
       transform: translateX(-13vw);
     }
+    @include breakpoint(tablet){
+      transform: translateX(15vw);
+    }
   }
   &:after{
     content: url(http://localhost:8888/FleachLP/wp-content/themes/Fleach/dist/img/arrow-icon.svg);
@@ -226,6 +229,9 @@
       @include breakpoint(small){
         transform: translateX(13vw);
       }
+      @include breakpoint(tablet){
+        transform: translateX(15vw);
+      }
     }
   }
 }
@@ -235,6 +241,9 @@
     align-items: center !important;
     position: relative !important;
   }
+}
+.wpforms-container{
+  margin-bottom: 0 !important;
 }
 div.wpforms-container-full {
   margin-bottom: 0 !important;

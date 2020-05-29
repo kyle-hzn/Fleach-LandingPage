@@ -23,3 +23,28 @@ if (menuButton) {
     }
   });
 }
+
+var scroll = new SmoothScroll('a[href*="#"]');
+
+window.sr = ScrollReveal();
+sr.reveal('.reveal', { 
+  origin: 'bottom',
+  distance: '50px',
+  duration: 2000 
+});
+sr.reveal('.reveal2', { 
+  origin: 'bottom',
+  distance: '50px',
+  delay: '400',
+  duration: 2000 
+});
+sr.reveal('.reveal3', { 
+  origin: 'bottom',
+  distance: '50px',
+  delay: '600',
+  duration: 2000 
+});
+sr.reveal('.reveal4', { 
+  origin: 'center',
+  duration: 2000 
+});
