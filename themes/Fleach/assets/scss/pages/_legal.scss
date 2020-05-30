@@ -1,0 +1,62 @@
+.legal{
+  padding: 15% 0;
+  h2{
+    font-family: Sk-Modernist;
+    font-weight: 600;
+    font-size: 32px;
+    letter-spacing: -0.2px;
+    line-height: 40px;
+    color: $black-dark;
+    margin: 40px 0 24px 0;
+    @include breakpoint(small){
+    font-size: 24px;
+    line-height: 28px;
+    }
+  }
+  h3{
+    font-family: Aeonik;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -0.2px;
+    line-height: 36px;
+    color: $black-light;
+    margin: 24px 0 16px 0;
+  }
+  p{
+    font-family: Aeonik;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.2px;
+    line-height: 32px;
+    color: $black-light;
+    @include breakpoint(small){
+      font-size: 14px;
+      line-height: 28px;
+    }
+  }
+  ul{
+    list-style-position: inside;
+    list-style: none;
+    li{
+      font-family: Aeonik;
+      font-size: 16px;
+      font-weight: 400;
+      letter-spacing: -0.2px;
+      line-height: 32px;
+      color: $black-light;
+      &:before{
+        content: "\2022";
+        color: $purple-regular;
+      }
+      span{
+        position: relative;
+        left: 24px;
+      }
+    }
+  }
+  a{
+    color: $purple-regular;
+    font-weight: 500;
+    text-decoration: underline;
+  }
+}

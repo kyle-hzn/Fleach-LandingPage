@@ -3,10 +3,10 @@
     <a href="<?php echo get_permalink( get_page_by_title( 'Investisseurs' ) ) ?>" class="mr--40">
       <img src="<?= IMAGES_URL.'/fleach-logo-icon.svg'?>" alt="fleach logo white">
     </a>
-    <a href="<?php echo get_permalink( get_page_by_title( 'Investisseurs' ) ) ?>" class="paragraph--16 paragraph--16--white mr--40 d-none--mobile header-modal__active">
+    <a href="<?php echo get_permalink( get_page_by_title( 'Investisseurs' ) ) ?>" class="paragraph--16 paragraph--16--white mr--40 d-none--mobile">
     Investisseurs
     </a>
-    <a href="<?php echo get_permalink( get_page_by_title( 'Entrepreneurs' ) ) ?>" class="paragraph--16 paragraph--16--white d-none--mobile">
+    <a href="<?php echo get_permalink( get_page_by_title( 'Entrepreneurs' ) ) ?>" class="paragraph--16 paragraph--16--white d-none--mobile  header-modal__active">
     Entrepreneurs
     </a>
   </div>

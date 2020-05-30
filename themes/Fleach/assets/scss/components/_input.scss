@@ -185,8 +185,8 @@
   }
 }
 .input--news__submit{
-  width: 60px !important;
-  height: 60px !important;
+  width: 56px !important;
+  height: 56px !important;
   display: flex !important;
   align-items: center !important;
   justify-content: center;
@@ -195,9 +195,9 @@
   -webkit-appearance: none !important;
   cursor: pointer !important;
   position: absolute !important;
-  right: 2px !important;
   transition: ease-in-out 0.3s all !important;
   overflow: hidden !important;
+  right: 4px !important;
   top: 50% !important;
   transform: translateY(-50%) !important;
   border: 0px !important;
@@ -364,13 +364,31 @@ div.wpforms-container-full .wpforms-form button[type=submit]{
   letter-spacing: 0 !important;
   line-height: 18px !important;
 }
-#wpforms-confirmation-7{
+#wpforms-confirmation-5{
   p{
     font-family: Aeonik !important;
     font-size: 16px !important;
-    font-weight: 400 !important;
+    font-weight: 500 !important;
     letter-spacing: -0.2px !important;
     line-height: 28px !important;
-    color: $black-light !important;
+    color: $purple-regular !important;
+    background-color: $grey-light;
+    border: 1px solid $purple-light;
+    border-radius: 16px !important;
+    padding: 32px !important;
+  }
+}
+#wpforms-confirmation-6{
+  p{
+    font-family: Aeonik !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    letter-spacing: -0.2px !important;
+    line-height: 28px !important;
+    color: $purple-regular !important;
+    background-color: $grey-light;
+    border: 1px solid $purple-light;
+    border-radius: 16px !important;
+    padding: 32px !important;
   }
 }

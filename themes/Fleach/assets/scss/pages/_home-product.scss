@@ -57,6 +57,7 @@
   &__mockup{
     position: absolute;
     left: 50%;
+    max-width: 60%;
     &--top{
       transform: translate(-50%,50px);
     }

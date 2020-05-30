@@ -13,13 +13,13 @@
                     <p class="paragraph--16 paragraph--16--white text--strong mb--10">
                         Investisseurs
                     </p>
-                    <a data-scroll href="#produit" class="paragraph--14 paragraph--14--white mb--10">
+                    <a data-scroll href="<?php echo get_permalink( get_page_by_title( 'Investisseurs' ) ) ?>#produit" class="paragraph--14 paragraph--14--white mb--10">
                         Produit
                     </a>
-                    <a data-scroll href="#tarif" class="paragraph--14 paragraph--14--white mb--10">
+                    <a data-scroll href="<?php echo get_permalink( get_page_by_title( 'Investisseurs' ) ) ?>#tarif" class="paragraph--14 paragraph--14--white mb--10">
                         Tarif
                     </a>
-                    <a data-scroll href="#contact" class="paragraph--14 paragraph--14--white mb--10">
+                    <a data-scroll href="<?php echo get_permalink( get_page_by_title( 'Investisseurs' ) ) ?>#contact" class="paragraph--14 paragraph--14--white mb--10">
                         Contact
                     </a>
                 </div>
@@ -27,13 +27,13 @@
                     <p class="paragraph--16 paragraph--16--white text--strong mb--10">
                         Entrepreneurs
                     </p>
-                    <a data-scroll href="<?php echo get_permalink( get_page_by_title( 'Entrepreneurs' ) ) ?>#produit" class="paragraph--14 paragraph--14--white mb--10">
+                    <a data-scroll href="#produit" class="paragraph--14 paragraph--14--white mb--10">
                         Produit
                     </a>
-                    <a data-scroll href="<?php echo get_permalink( get_page_by_title( 'Entrepreneurs' ) ) ?>#tarif" class="paragraph--14 paragraph--14--white mb--10">
+                    <a data-scroll href="#tarif" class="paragraph--14 paragraph--14--white mb--10">
                         Tarif
                     </a>
-                    <a data-scroll href="<?php echo get_permalink( get_page_by_title( 'Entrepreneurs' ) ) ?>#contact" class="paragraph--14 paragraph--14--white mb--10">
+                    <a data-scroll href="#contact" class="paragraph--14 paragraph--14--white mb--10">
                         Contact
                     </a>
                 </div>

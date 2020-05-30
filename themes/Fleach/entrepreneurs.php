@@ -1,27 +1,27 @@
 <?php
 /*
-* Template name: Accueil Investisseurs
+* Template name: Accueil Entrepreneurs
 */
 ?>
 <?php get_template_part('partials/header'); ?>
-<?php get_template_part('partials/menu'); ?>
+<?php get_template_part('partials/menu2'); ?>
 <?php get_template_part('partials/menu-mobile'); ?>
 <div class="container hero mb--200">
     <div class="hero__wrapper">
         <div class="hero__intro">
-            <h1 class="title--one title--one--black hero__title mb--32 reveal">Visionnez,
+            <h1 class="title--one title--one--black hero__title mb--32 reveal">Pitchez,
                 Échangez,
-                <strong class="text--strong">Investissez</strong>.
+                <strong class="text--strong">Financez</strong>.
             </h1>
             <h2 class="paragraph--16 paragraph--16--grey hero__subtitle mb--40 reveal2">
-                Fleach simplifie le quotidien des business angels en optimisant le sourcing de projets qualifiées au travers de rencontre vidéo avec des entrepreneurs innovants.
+                Fleach vous accompagne dans la recherche d’investissement pour votre projet, en vous mettant en relations avec des investisseurs par le biais de pitch vidéo et de session de live. 
             </h2>
             <div class="input--newsform reveal3">
                 <?php echo do_shortcode( '[wpforms id="5" title="false" description="false"]' ); ?>
             </div>
         </div>
         <div class="hero__board reveal4">
-            <img class="hero__board__img" src="<?= IMAGES_URL.'/invest-board.png'?>" alt="investisseurs">
+            <img class="hero__board__img" src="<?= IMAGES_URL.'/entre-board.png'?>" alt="entrepreneurs">
         </div>
     </div>
 </div>
@@ -29,25 +29,22 @@
     <div class="product__wrapper mb--400">
         <div class="product__l product__center reveal4">
             <div class="product__shape product__shape--light">
-                <img class="product__mockup product__mockup--top" src="<?= IMAGES_URL.'/investisseurs-filtres.png'?>" alt="investisseurs filtres">
+                <img class="product__mockup product__mockup--top" src="<?= IMAGES_URL.'/entre-validate.png'?>" alt="création pitch">
             </div>
         </div>
         <div class="product__r">
             <h3 class="title--two title--two--black mb--20 reveal">
-                Sourcez les projets pertinents qui vous intéresse en quelques minutes
+                Pitchez votre projet en vidéo pour convaincre les investisseurs.
             </h3>
             <ul class="product__list reveal2">
                 <li class="product__list__chip paragraph--20 paragraph--20--grey">
-                    <span>Filtrez les projets et paramétrez des alertes</span>
+                    <span>Enregistrez votre vidéo de présentation de votre projet simplement en suivant notre guide étape par étape</span>
                 </li>
                 <li class="product__list__chip paragraph--20 paragraph--20--grey">
-                    <span>Matching de projet optimisé selon vos centres d’intérêts</span>
+                    <span>Postez votre vidéo sur la plateforme</span>
                 </li>
                 <li class="product__list__chip paragraph--20 paragraph--20--grey">
-                    <span>Définissez votre montant de ticket d’investissement</span>
-                </li>
-                <li class="product__list__chip paragraph--20 paragraph--20--grey">
-                    <span>Des vidéos d’une minute qui récapitule l’ensemble des points clés du projet</span>
+                    <span>Visualisez les investisseurs intéressé par votre projet</span>
                 </li>
             </ul>
         </div>
@@ -55,48 +52,45 @@
     <div class="product__wrapper mb--200">
         <div class="product__l">
             <h3 class="title--two title--two--black mb--20 reveal">
-                Échangez avec l’entrepreneur en live vidéo sur tous les aspects de son projet et ses objectifs.
+                Simplifiez les rencontres avec les investisseurs en organisant un live pour tous
             </h3>
             <ul class="product__list reveal2">
                 <li class="product__list__chip paragraph--20 paragraph--20--grey">
-                    <span>Rencontrez le(s) porteur(s) du projet grâce à un live vidéo</span>
+                    <span>Créez une date de live dans les quelques jours suivant la publication de votre vidéo sur la plateforme</span>
                 </li>
                 <li class="product__list__chip paragraph--20 paragraph--20--grey">
-                    <span>Découvrez des projets innovants d’entrepreneurs</span>
+                    <span>Participez au live le jour J avec les investisseurs.</span>
                 </li>
                 <li class="product__list__chip paragraph--20 paragraph--20--grey">
-                    <span>Posez vos questions en direct via le chat</span>
-                </li>
-                <li class="product__list__chip paragraph--20 paragraph--20--grey">
-                    <span>Analysez comment rentabiliser cotre investissement</span>
+                    <span>Echangez simplement et répondez aux questions grâce chat intégré sur la plateforme du live</span>
                 </li>
             </ul>
         </div>
         <div class="product__r product__center reveal4">
             <div class="product__shape product__shape--dark">
-                <img class="product__mockup product__mockup--btm" src="<?= IMAGES_URL.'/investisseurs-live.png'?>" alt="investisseurs live">
+                <img class="product__mockup product__mockup--btm" src="<?= IMAGES_URL.'/entre-live2.png'?>" alt="entrepreneurs live">
             </div>
         </div>
     </div>
     <div class="product__wrapper mb--400">
         <div class="product__l reveal4">
             <div class="product__shape product__shape--regular">
-                <img class="product__mockup product__mockup--top" src="<?= IMAGES_URL.'/investisseurs-offer.png'?>" alt="investisseurs offre">
+                <img class="product__mockup product__mockup--top" src="<?= IMAGES_URL.'/entre-offer.png'?>" alt="entrepreneurs offre">
             </div>
         </div>
         <div class="product__r">
             <h3 class="title--two title--two--black mb--20 reveal">
-                Faites part de votre intérêt aux entrepreneurs qui vous ont potentiellement convaincu.
+                Recevez les propositions des investisseurs intéressés dès la fin du live. 
             </h3>
             <ul class="product__list reveal2">
                 <li class="product__list__chip paragraph--20 paragraph--20--grey">
-                    <span>Planifiez un live supplémentaire avec le(s) entrepreneur(s)</span>
+                    <span>Comparez les offres de investisseurs</span>
                 </li>
                 <li class="product__list__chip paragraph--20 paragraph--20--grey">
-                    <span>Négociez selon vos méthodes et critères</span>
+                    <span>Négociez en faisant des contre-propositions</span>
                 </li>
                 <li class="product__list__chip paragraph--20 paragraph--20--grey">
-                    <span>Faitez une offre financière, finalisez l’accord par une lettre d’intention.</span>
+                    <span>Une fois l’offre accepté, l’accord est finalisez par la réception d’un lettre d’intention</span>
                 </li>
             </ul>
         </div>
@@ -171,4 +165,4 @@
         </div>
     </div>
 </div>
-<?php get_template_part('partials/footer'); ?>
+<?php get_template_part('partials/footer2'); ?>
