@@ -37,7 +37,7 @@
     }
   }
   &__list{    
-    list-style-position: inside;
+    list-style-position: outside;
     list-style: none;
     &__chip{
       position: relative;
@@ -45,7 +45,7 @@
         max-width: 90%;
       }
       &:before{
-        content: url(http://localhost:8888/FleachLP/wp-content/themes/Fleach/dist/img/checkmark-icon.svg);
+        content: url(https://fleach.app/wp-content/themes/Fleach/dist/img/checkmark-icon.svg);
         position: absolute;
         left: 0;
       }

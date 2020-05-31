@@ -18,7 +18,7 @@
     // transition: ease-in 0.5s border !important;
     // border: 1px solid $grey-light !important;
     // position: relative !important;
-    // background-image: url(http://localhost:8888/FleachLP/wp-content/themes/Fleach/dist/img/envelop-icon.svg) !important;
+    // background-image: url(https://fleach.app/wp-content/themes/Fleach/dist/img/envelop-icon.svg) !important;
     // background-position: 24px !important;
     // background-repeat: no-repeat !important;
     // &:focus{
@@ -171,7 +171,7 @@
     transition: ease-in 0.5s border !important;
     border: 1px solid $grey-light !important;
     position: relative !important;
-    background-image: url(http://localhost:8888/FleachLP/wp-content/themes/Fleach/dist/img/envelop-icon.svg) !important;
+    background-image: url(https://fleach.app/wp-content/themes/Fleach/dist/img/envelop-icon.svg) !important;
     background-position: 24px !important;
     background-repeat: no-repeat !important;
     &:focus{
@@ -202,7 +202,7 @@
   transform: translateY(-50%) !important;
   border: 0px !important;
   &:before{
-    content: url(http://localhost:8888/FleachLP/wp-content/themes/Fleach/dist/img/arrow-icon.svg);
+    content: url(https://fleach.app/wp-content/themes/Fleach/dist/img/arrow-icon.svg);
     transform: translateX(-3vw);
     position: absolute;
     transition: ease-in-out 0.3s all !important;
@@ -214,7 +214,7 @@
     }
   }
   &:after{
-    content: url(http://localhost:8888/FleachLP/wp-content/themes/Fleach/dist/img/arrow-icon.svg);
+    content: url(https://fleach.app/wp-content/themes/Fleach/dist/img/arrow-icon.svg);
     transform: translateX(0vw);
     position: absolute;
     transition: ease-in-out 0.3s all !important;
@@ -391,4 +391,19 @@ div.wpforms-container-full .wpforms-form button[type=submit]{
     border-radius: 16px !important;
     padding: 32px !important;
   }
+}
+#cookie-law-info-bar{
+  bottom: 16px !important;
+  border-radius: 16px !important;
+  width: 90% !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  padding: 32px 24px !important;
+}
+#cookie_action_close_header{
+  border-radius: 8px !important;
+  margin: 0px 24px !important;
+}
+#cookie-law-info-bar span{
+  font-size: 14px !important;
 }

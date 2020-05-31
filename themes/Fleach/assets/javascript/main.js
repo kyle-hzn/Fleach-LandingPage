@@ -39,7 +39,10 @@ if (menuButton) {
 }
 
 
-var scroll = new SmoothScroll('a[href*="#"]');
+var scroll = new SmoothScroll('a[href*="#"]',{
+  header: '[data-scroll-header]',
+  offset: 100
+});
 
 window.sr = ScrollReveal();
 sr.reveal('.reveal', { 

@@ -5,16 +5,16 @@
 ?>
 <?php get_template_part('partials/header'); ?>
 <?php get_template_part('partials/menu2'); ?>
-<?php get_template_part('partials/menu-mobile'); ?>
+<?php get_template_part('partials/menu-mobile2'); ?>
 <div class="container hero mb--200">
     <div class="hero__wrapper">
         <div class="hero__intro">
             <h1 class="title--one title--one--black hero__title mb--32 reveal">Pitchez,
                 Échangez,
-                <strong class="text--strong">Financez</strong>.
+                <strong class="text--strong">Démarrez</strong>.
             </h1>
             <h2 class="paragraph--16 paragraph--16--grey hero__subtitle mb--40 reveal2">
-                Fleach vous accompagne dans la recherche d’investissement pour votre projet, en vous mettant en relations avec des investisseurs par le biais de pitch vidéo et de session de live. 
+            Fleach vous accompagne dans la recherche d’investissement pour votre projet, en vous mettant en relation avec des business angels par le biais de notre plateforme ludique et intutitive de pitchs vidéo et de session live. 
             </h2>
             <div class="input--newsform reveal3">
                 <?php echo do_shortcode( '[wpforms id="5" title="false" description="false"]' ); ?>
@@ -38,31 +38,31 @@
             </h3>
             <ul class="product__list reveal2">
                 <li class="product__list__chip paragraph--20 paragraph--20--grey">
-                    <span>Enregistrez votre vidéo de présentation de votre projet simplement en suivant notre guide étape par étape</span>
+                    <span>Définissez votre projet en enrengistrant une vidéo de présentation qualitative qui suit notre guide de 6 étapes</span>
                 </li>
                 <li class="product__list__chip paragraph--20 paragraph--20--grey">
-                    <span>Postez votre vidéo sur la plateforme</span>
+                    <span>Postez votre projet et vos objectifs sur notre plateforme</span>
                 </li>
                 <li class="product__list__chip paragraph--20 paragraph--20--grey">
-                    <span>Visualisez les investisseurs intéressé par votre projet</span>
+                    <span>Rencontrez des investisseurs reconnus et qualifiés</span>
                 </li>
             </ul>
         </div>
     </div>
-    <div class="product__wrapper mb--200">
+    <div class="product__wrapper product__wrapper__reverse mb--200">
         <div class="product__l">
             <h3 class="title--two title--two--black mb--20 reveal">
-                Simplifiez les rencontres avec les investisseurs en organisant un live pour tous
+                Simplifiez les rencontres avec les investisseurs en organisant un live pour tous.
             </h3>
             <ul class="product__list reveal2">
                 <li class="product__list__chip paragraph--20 paragraph--20--grey">
-                    <span>Créez une date de live dans les quelques jours suivant la publication de votre vidéo sur la plateforme</span>
+                    <span>Choisissez une date de live dans les jours suivant la publication de votre vidéo sur la plateforme</span>
                 </li>
                 <li class="product__list__chip paragraph--20 paragraph--20--grey">
-                    <span>Participez au live le jour J avec les investisseurs.</span>
+                    <span>Participez au live le jour J avec les investisseurs inscrits</span>
                 </li>
                 <li class="product__list__chip paragraph--20 paragraph--20--grey">
-                    <span>Echangez simplement et répondez aux questions grâce chat intégré sur la plateforme du live</span>
+                    <span>Échangez et répondez simplement aux investisseurs grâce au chat integré du live</span>
                 </li>
             </ul>
         </div>
@@ -80,17 +80,17 @@
         </div>
         <div class="product__r">
             <h3 class="title--two title--two--black mb--20 reveal">
-                Recevez les propositions des investisseurs intéressés dès la fin du live. 
+            Recevez les propositions des investisseurs intéressés de participer à votre projet.
             </h3>
             <ul class="product__list reveal2">
                 <li class="product__list__chip paragraph--20 paragraph--20--grey">
-                    <span>Comparez les offres de investisseurs</span>
+                    <span>Comparez les offres reçues et leurs argumentations</span>
                 </li>
                 <li class="product__list__chip paragraph--20 paragraph--20--grey">
                     <span>Négociez en faisant des contre-propositions</span>
                 </li>
                 <li class="product__list__chip paragraph--20 paragraph--20--grey">
-                    <span>Une fois l’offre accepté, l’accord est finalisez par la réception d’un lettre d’intention</span>
+                    <span>Finalisez l’accord par la réception d’une lettre officielle d’intention d’investissement</span>
                 </li>
             </ul>
         </div>
@@ -100,36 +100,36 @@
     <div class="pricing__wrapper">
         <div class="pricing__l">
             <h3 class="title--one title--one--black mb--20">
-                Une <strong class="text--strong text--purple">offre</strong> adapté <strong class="text--strong">à vos besoins</strong>
+                Une <strong class="text--strong text--purple">offre</strong> adapté <strong class="text--strong">à votre projet</strong>
             </h3>
             <p class="paragraph--16 paragraph--16--black">
-                L’offre qui vous correspond le mieux, profitez d’une <strong class="text--purple text--strong">période d’essai de 30 jours</strong> pour tester notre produit et ses diverses fonctionnalités
+                Fleach perçoit une commission à <strong class="text--purple text--strong">hauteur de 4%</strong> uniquement sur les projets financés en intégralité suite à l’accord entre l’entrepreneur et l’investisseur.
             </p>
         </div>
         <div class="pricing__r">
             <h3 class="title--two title--two--black">
-                Premium
+                Commission
             </h3>
             <div class="pricing__price mb--20">
                 <h4 class="pricing__price__nb mr--10">
-                    14,99 €
+                    4%
                 </h4>
                 <p class="paragraph--16 paragraph--16--grey">
-                    /mois
+                    sur les fonds totaux récoltés
                 </p>
             </div>
             <ul class="pricing__list">
                 <li class="pricing__list__chip paragraph--16 paragraph--16--grey">
-                    <span>Entrées illimités pour accéder aux lives des entrepreneurs</span>
+                    <span>Accompagnement dans la création du pitch vidéo destiné aux business angels</span>
                 </li>
                 <li class="pricing__list__chip paragraph--16 paragraph--16--grey">
-                    <span>Matching avec des projets selon vos domaines d’activités de prédilection</span>
+                    <span>Mise en relation fiable et qualitative</span>
                 </li>
                 <li class="pricing__list__chip paragraph--16 paragraph--16--grey">
-                    <span>Accès à tous les pitchs vidéo des projets</span>
+                    <span>Organisation des lives vidéo, gestion du planning et des rendez-vous</span>
                 </li>
                 <li class="pricing__list__chip paragraph--16 paragraph--16--grey">
-                    <span>Aucune publicité</span>
+                    <span>Gestion des offres d’investissements et des négociations entre parties</span>
                 </li>
             </ul>
         </div>
@@ -154,7 +154,7 @@
         <div class="download__wrapper">
             <div class="download__l reveal">
                 <h4 class="title--two title--two--white">
-                    Inscrivez-vous pour commencer et profitez de 30 jours d’essai gratuit
+                    Inscrivez-vous pour profiter de Fleach dès sa sortie
                 </h4>
             </div>
             <div class="download__r reveal2">

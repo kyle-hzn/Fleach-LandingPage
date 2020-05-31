@@ -1,4 +1,4 @@
-<nav class="header-modal">
+<nav data-scroll-header class="header-modal">
   <div class="header-modal__left">
     <a href="<?php echo get_permalink( get_page_by_title( 'Investisseurs' ) ) ?>" class="mr--40">
       <img src="<?= IMAGES_URL.'/fleach-logo-icon.svg'?>" alt="fleach logo white">

@@ -1,5 +1,19 @@
 .hero{
   height: 100vh;
+  &:after{
+    background: $grey-light;
+    border-radius: 0 0 0 25px;
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    z-index: -2;
+    @include breakpoint(small){
+      content: none;
+    }
+  }
   @include breakpoint(small){
     height: auto;
   }
@@ -22,7 +36,7 @@
       margin: 25vh 0;
     }
     &:before{
-      content: url(http://localhost:8888/FleachLP/wp-content/themes/Fleach/dist/img/shape-hero.svg);
+      content: url(https://fleach.app/wp-content/themes/Fleach/dist/img/shape-hero.svg);
       position: absolute;
       left: -20%;
       top: 0;

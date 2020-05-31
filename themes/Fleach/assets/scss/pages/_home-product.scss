@@ -2,6 +2,21 @@
   &__wrapper{
     display: flex;
     align-items: center;
+    &__reverse{
+      @include breakpoint(small){
+        flex-direction: column-reverse !important;
+      }
+      .product__l{
+        @include breakpoint(small){
+          padding: 15% 0 0 0;
+        }
+      }
+      .product__r{
+        @include breakpoint(small){
+          padding: 40% 0 0 0;
+        }
+      }
+    }
     @include breakpoint(small){
       flex-direction: column;
     }
@@ -37,19 +52,19 @@
     }
     &--light{
       background-color: $purple-light;
-      background-image: url(http://localhost:8888/FleachLP/wp-content/themes/Fleach/dist/img/shape-light.svg);
+      background-image: url(https://fleach.app/wp-content/themes/Fleach/dist/img/shape-light.svg);
       background-repeat: no-repeat;
       background-position: -100% -100%;
     }
     &--dark{
       background-color: #1A29BA;
-      background-image: url(http://localhost:8888/FleachLP/wp-content/themes/Fleach/dist/img/shape-dark.svg);
+      background-image: url(https://fleach.app/wp-content/themes/Fleach/dist/img/shape-dark.svg);
       background-repeat: no-repeat;
       background-position: -100% 50%;
     }
     &--regular{
       background-color: $purple-regular;
-      background-image: url(http://localhost:8888/FleachLP/wp-content/themes/Fleach/dist/img/shape-regular.svg);
+      background-image: url(https://fleach.app/wp-content/themes/Fleach/dist/img/shape-regular.svg);
       background-repeat: no-repeat;
       background-position: 150% 100%;
     }
@@ -74,9 +89,10 @@
     }
   }
   &__list{    
-    list-style-position: inside;
+    list-style-position: outside;
     list-style: none;
     &__chip{
+      position: relative;
       @include breakpoint(small){
         max-width: 90%;
       }
@@ -86,6 +102,8 @@
       &:before{
         content: "\2022";
         color: $purple-regular;
+        position: absolute;
+        left: 0;
       }
       span{
         position: relative;

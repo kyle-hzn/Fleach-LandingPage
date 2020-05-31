@@ -14,7 +14,7 @@
                 <strong class="text--strong">Investissez</strong>.
             </h1>
             <h2 class="paragraph--16 paragraph--16--grey hero__subtitle mb--40 reveal2">
-                Fleach simplifie le quotidien des business angels en optimisant le sourcing de projets qualifiées au travers de rencontre vidéo avec des entrepreneurs innovants.
+                Fleach simplifie le quotidien des business angels en optimisant le sourcing de projets qualifiés au travers de rencontre vidéos avec des entrepreneurs innovants.
             </h2>
             <div class="input--newsform reveal3">
                 <?php echo do_shortcode( '[wpforms id="5" title="false" description="false"]' ); ?>
@@ -34,7 +34,7 @@
         </div>
         <div class="product__r">
             <h3 class="title--two title--two--black mb--20 reveal">
-                Sourcez les projets pertinents qui vous intéresse en quelques minutes
+                Sourcez les projets qui vous intéressent en quelques minutes
             </h3>
             <ul class="product__list reveal2">
                 <li class="product__list__chip paragraph--20 paragraph--20--grey">
@@ -44,7 +44,7 @@
                     <span>Matching de projet optimisé selon vos centres d’intérêts</span>
                 </li>
                 <li class="product__list__chip paragraph--20 paragraph--20--grey">
-                    <span>Définissez votre montant de ticket d’investissement</span>
+                    <span>Définissez votre montant de ticket d’investissement maximum</span>
                 </li>
                 <li class="product__list__chip paragraph--20 paragraph--20--grey">
                     <span>Des vidéos d’une minute qui récapitule l’ensemble des points clés du projet</span>
@@ -52,7 +52,7 @@
             </ul>
         </div>
     </div>
-    <div class="product__wrapper mb--200">
+    <div class="product__wrapper product__wrapper__reverse mb--200">
         <div class="product__l">
             <h3 class="title--two title--two--black mb--20 reveal">
                 Échangez avec l’entrepreneur en live vidéo sur tous les aspects de son projet et ses objectifs.
@@ -68,7 +68,7 @@
                     <span>Posez vos questions en direct via le chat</span>
                 </li>
                 <li class="product__list__chip paragraph--20 paragraph--20--grey">
-                    <span>Analysez comment rentabiliser cotre investissement</span>
+                    <span>Prévisionnez la capacité de votre investissement</span>
                 </li>
             </ul>
         </div>
@@ -86,7 +86,7 @@
         </div>
         <div class="product__r">
             <h3 class="title--two title--two--black mb--20 reveal">
-                Faites part de votre intérêt aux entrepreneurs qui vous ont potentiellement convaincu.
+                Faites part de votre intérêt aux entrepreneurs qui vous ont convaincu.
             </h3>
             <ul class="product__list reveal2">
                 <li class="product__list__chip paragraph--20 paragraph--20--grey">
@@ -96,7 +96,7 @@
                     <span>Négociez selon vos méthodes et critères</span>
                 </li>
                 <li class="product__list__chip paragraph--20 paragraph--20--grey">
-                    <span>Faitez une offre financière, finalisez l’accord par une lettre d’intention.</span>
+                    <span>Faitez une offre d'investissement, finalisez l’accord par une lettre d’intention</span>
                 </li>
             </ul>
         </div>
@@ -126,13 +126,13 @@
             </div>
             <ul class="pricing__list">
                 <li class="pricing__list__chip paragraph--16 paragraph--16--grey">
+                    <span>Accès à tous les pitchs vidéo des projets</span>
+                </li>
+                <li class="pricing__list__chip paragraph--16 paragraph--16--grey">
                     <span>Entrées illimités pour accéder aux lives des entrepreneurs</span>
                 </li>
                 <li class="pricing__list__chip paragraph--16 paragraph--16--grey">
-                    <span>Matching avec des projets selon vos domaines d’activités de prédilection</span>
-                </li>
-                <li class="pricing__list__chip paragraph--16 paragraph--16--grey">
-                    <span>Accès à tous les pitchs vidéo des projets</span>
+                    <span>Matching avec des projets selon vos domaines de prédilection</span>
                 </li>
                 <li class="pricing__list__chip paragraph--16 paragraph--16--grey">
                     <span>Aucune publicité</span>
@@ -160,7 +160,7 @@
         <div class="download__wrapper">
             <div class="download__l reveal">
                 <h4 class="title--two title--two--white">
-                    Inscrivez-vous pour commencer et profitez de 30 jours d’essai gratuit
+                    Inscrivez-vous pour profiter de Fleach dès sa sortie
                 </h4>
             </div>
             <div class="download__r reveal2">
