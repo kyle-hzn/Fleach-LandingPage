@@ -43,15 +43,15 @@
                     <p class="paragraph--16 paragraph--16--white text--strong mb--10">
                         Communauté
                     </p>
-                    <a target="_blank" href="#" class="paragraph--14 paragraph--14--white mb--10">
+                    <a target="_blank" href="https://twitter.com/Fleach12" class="paragraph--14 paragraph--14--white mb--10">
                         Twitter 
                         <img class="ml--5" src="<?= IMAGES_URL.'/external-icon.svg'?>" alt="Twitter">
                     </a>
-                    <a target="_blank" href="#" class="paragraph--14 paragraph--14--white mb--10">
+                    <a target="_blank" href="https://www.facebook.com/FleachPro/" class="paragraph--14 paragraph--14--white mb--10">
                         Facebook
                         <img class="ml--5" src="<?= IMAGES_URL.'/external-icon.svg'?>" alt="Facebook">
                     </a>
-                    <a target="_blank" href="#" class="paragraph--14 paragraph--14--white mb--10">
+                    <a target="_blank" href="https://instagram.com/fleachpro?igshid=1kjtjppa6b93j" class="paragraph--14 paragraph--14--white mb--10">
                         Instagram
                         <img class="ml--5" src="<?= IMAGES_URL.'/external-icon.svg'?>" alt="Instagram">
                     </a>

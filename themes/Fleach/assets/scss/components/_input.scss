@@ -392,6 +392,20 @@ div.wpforms-container-full .wpforms-form button[type=submit]{
     padding: 32px !important;
   }
 }
+#wpforms-confirmation-7{
+  p{
+    font-family: Aeonik !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    letter-spacing: -0.2px !important;
+    line-height: 28px !important;
+    color: $purple-regular !important;
+    background-color: $grey-light;
+    border: 1px solid $purple-light;
+    border-radius: 16px !important;
+    padding: 32px !important;
+  }
+}
 #cookie-law-info-bar{
   bottom: 16px !important;
   border-radius: 16px !important;
@@ -403,7 +417,21 @@ div.wpforms-container-full .wpforms-form button[type=submit]{
 #cookie_action_close_header{
   border-radius: 8px !important;
   margin: 0px 24px !important;
+  @include breakpoint(small){
+    margin: 12px 24px!important;
+  }
 }
 #cookie-law-info-bar span{
   font-size: 14px !important;
+  @include breakpoint(small){
+    display: flex !important;
+    flex-direction: column !important;
+    font-size: 12px!important;
+    line-height: 16px;
+  }
+}
+.cli_settings_button{
+  @include breakpoint(small){
+    margin: 0 !important;
+  }
 }

@@ -14,7 +14,7 @@
                 <strong class="text--strong">Investissez</strong>.
             </h1>
             <h2 class="paragraph--16 paragraph--16--grey hero__subtitle mb--40 reveal2">
-                Fleach simplifie le quotidien des business angels en optimisant le sourcing de projets qualifiés au travers de rencontre vidéos avec des entrepreneurs innovants.
+                Fleach simplifie le quotidien des business angels en optimisant le sourcing de projets qualifiés au travers de rencontres vidéos avec des entrepreneurs innovants à la recherche d'investisseurs.
             </h2>
             <div class="input--newsform reveal3">
                 <?php echo do_shortcode( '[wpforms id="5" title="false" description="false"]' ); ?>
@@ -34,20 +34,20 @@
         </div>
         <div class="product__r">
             <h3 class="title--two title--two--black mb--20 reveal">
-                Sourcez les projets qui vous intéressent en quelques minutes
+                Sourcez les projets qui vous intéressent en quelques minutes.
             </h3>
             <ul class="product__list reveal2">
                 <li class="product__list__chip paragraph--20 paragraph--20--grey">
-                    <span>Filtrez les projets et paramétrez des alertes</span>
+                    <span>Filtrez les projets qui sont susceptibles de vous intéresser et paramétrez des alertes</span>
                 </li>
                 <li class="product__list__chip paragraph--20 paragraph--20--grey">
-                    <span>Matching de projet optimisé selon vos centres d’intérêts</span>
+                    <span>Matching de projets optimisés selon les domaines présélectionnés</span>
                 </li>
                 <li class="product__list__chip paragraph--20 paragraph--20--grey">
-                    <span>Définissez votre montant de ticket d’investissement maximum</span>
+                    <span>Définissez votre montant de tickets d’investissement maximum par projet</span>
                 </li>
                 <li class="product__list__chip paragraph--20 paragraph--20--grey">
-                    <span>Des vidéos d’une minute qui récapitule l’ensemble des points clés du projet</span>
+                    <span>Des vidéos courtes et ludiques qui récapitulent l’ensemble des points clés du projet</span>
                 </li>
             </ul>
         </div>
@@ -55,14 +55,14 @@
     <div class="product__wrapper product__wrapper__reverse mb--200">
         <div class="product__l">
             <h3 class="title--two title--two--black mb--20 reveal">
-                Échangez avec l’entrepreneur en live vidéo sur tous les aspects de son projet et ses objectifs.
+                Échangez simplement en participant aux lives des entrepreneurs.
             </h3>
             <ul class="product__list reveal2">
                 <li class="product__list__chip paragraph--20 paragraph--20--grey">
-                    <span>Rencontrez le(s) porteur(s) du projet grâce à un live vidéo</span>
+                    <span>Assistez au live vidéo de l’entrepreneur de votre choix</span>
                 </li>
                 <li class="product__list__chip paragraph--20 paragraph--20--grey">
-                    <span>Découvrez des projets innovants d’entrepreneurs</span>
+                    <span>Échangez directement durant le live vidéo sur les aspects du projet et des objectifs</span>
                 </li>
                 <li class="product__list__chip paragraph--20 paragraph--20--grey">
                     <span>Posez vos questions en direct via le chat</span>
@@ -93,10 +93,10 @@
                     <span>Planifiez un live supplémentaire avec le(s) entrepreneur(s)</span>
                 </li>
                 <li class="product__list__chip paragraph--20 paragraph--20--grey">
-                    <span>Négociez selon vos méthodes et critères</span>
+                    <span>Négociez selon vos méthodes, critères et engagements</span>
                 </li>
                 <li class="product__list__chip paragraph--20 paragraph--20--grey">
-                    <span>Faitez une offre d'investissement, finalisez l’accord par une lettre d’intention</span>
+                    <span>Faites une offre d'investissement, finalisez l’accord par une lettre d’intention</span>
                 </li>
             </ul>
         </div>
@@ -106,10 +106,10 @@
     <div class="pricing__wrapper">
         <div class="pricing__l">
             <h3 class="title--one title--one--black mb--20">
-                Une <strong class="text--strong text--purple">offre</strong> adapté <strong class="text--strong">à vos besoins</strong>
+                Une <strong class="text--strong text--purple">offre</strong> adaptée <strong class="text--strong">à vos besoins</strong>
             </h3>
             <p class="paragraph--16 paragraph--16--black">
-                L’offre qui vous correspond le mieux, profitez d’une <strong class="text--purple text--strong">période d’essai de 30 jours</strong> pour tester notre produit et ses diverses fonctionnalités
+                Un accès illimité aux services Fleach, profitez d’une <strong class="text--purple text--strong">période d’essai de 30 jours</strong> pour tester notre produit et ses diverses fonctionnalités.
             </p>
         </div>
         <div class="pricing__r">
@@ -126,10 +126,10 @@
             </div>
             <ul class="pricing__list">
                 <li class="pricing__list__chip paragraph--16 paragraph--16--grey">
-                    <span>Accès à tous les pitchs vidéo des projets</span>
+                    <span>Accès à tous les projets et pitchs vidéos correspondants</span>
                 </li>
                 <li class="pricing__list__chip paragraph--16 paragraph--16--grey">
-                    <span>Entrées illimités pour accéder aux lives des entrepreneurs</span>
+                    <span>Entrées illimitées pour accéder aux lives des entrepreneurs</span>
                 </li>
                 <li class="pricing__list__chip paragraph--16 paragraph--16--grey">
                     <span>Matching avec des projets selon vos domaines de prédilection</span>

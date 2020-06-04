@@ -14,7 +14,7 @@
                 <strong class="text--strong">Démarrez</strong>.
             </h1>
             <h2 class="paragraph--16 paragraph--16--grey hero__subtitle mb--40 reveal2">
-            Fleach vous accompagne dans la recherche d’investissement pour votre projet, en vous mettant en relation avec des business angels par le biais de notre plateforme ludique et intutitive de pitchs vidéo et de session live. 
+                Fleach vous accompagne dans la recherche d’investissement pour votre projet, en vous mettant en relation avec des business angels par le biais de notre plateforme ludique et intutitive de pitchs vidéos et de sessions live.
             </h2>
             <div class="input--newsform reveal3">
                 <?php echo do_shortcode( '[wpforms id="5" title="false" description="false"]' ); ?>
@@ -62,7 +62,7 @@
                     <span>Participez au live le jour J avec les investisseurs inscrits</span>
                 </li>
                 <li class="product__list__chip paragraph--20 paragraph--20--grey">
-                    <span>Échangez et répondez simplement aux investisseurs grâce au chat integré du live</span>
+                    <span>Échangez et répondez simplement aux investisseurs grâce au chat integré au live</span>
                 </li>
             </ul>
         </div>
@@ -80,14 +80,14 @@
         </div>
         <div class="product__r">
             <h3 class="title--two title--two--black mb--20 reveal">
-            Recevez les propositions des investisseurs intéressés de participer à votre projet.
+            Recevez les propositions des investisseurs intéressés par votre projet.
             </h3>
             <ul class="product__list reveal2">
                 <li class="product__list__chip paragraph--20 paragraph--20--grey">
                     <span>Comparez les offres reçues et leurs argumentations</span>
                 </li>
                 <li class="product__list__chip paragraph--20 paragraph--20--grey">
-                    <span>Négociez en faisant des contre-propositions</span>
+                    <span>Choisissez les meilleures offres</span>
                 </li>
                 <li class="product__list__chip paragraph--20 paragraph--20--grey">
                     <span>Finalisez l’accord par la réception d’une lettre officielle d’intention d’investissement</span>
@@ -100,10 +100,10 @@
     <div class="pricing__wrapper">
         <div class="pricing__l">
             <h3 class="title--one title--one--black mb--20">
-                Une <strong class="text--strong text--purple">offre</strong> adapté <strong class="text--strong">à votre projet</strong>
+                Une <strong class="text--strong text--purple">offre</strong> adaptée <strong class="text--strong">à votre projet</strong>
             </h3>
             <p class="paragraph--16 paragraph--16--black">
-                Fleach perçoit une commission à <strong class="text--purple text--strong">hauteur de 4%</strong> uniquement sur les projets financés en intégralité suite à l’accord entre l’entrepreneur et l’investisseur.
+                Fleach perçoit une seule commission à <strong class="text--purple text--strong">hauteur de 4%</strong> uniquement sur les projets financés en intégralité suite à l’accord entre l’investisseur et vous.
             </p>
         </div>
         <div class="pricing__r">
@@ -126,10 +126,10 @@
                     <span>Mise en relation fiable et qualitative</span>
                 </li>
                 <li class="pricing__list__chip paragraph--16 paragraph--16--grey">
-                    <span>Organisation des lives vidéo, gestion du planning et des rendez-vous</span>
+                    <span>Organisation intuitive des lives vidéos, de la gestion de votre planning et des rendez-vous</span>
                 </li>
                 <li class="pricing__list__chip paragraph--16 paragraph--16--grey">
-                    <span>Gestion des offres d’investissements et des négociations entre parties</span>
+                    <span>Gestion des offres d’investissement entre les deux parties</span>
                 </li>
             </ul>
         </div>

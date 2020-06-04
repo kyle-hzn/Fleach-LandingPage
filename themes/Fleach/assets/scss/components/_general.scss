@@ -35,9 +35,14 @@ a{
       display: none;
     }
   }
+  &--medium{
+    @include breakpoint(medium){
+      display: none !important;
+    }
+  }
   &--tablet{
     @include breakpoint(tablet){
-      display: none;
+      display: none !important;
     }
   }
   &--mobile{
