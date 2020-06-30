@@ -17,6 +17,9 @@
     <a data-scroll href="#tarif" class="paragraph--16 paragraph--16--white mr--40 d-none--mobile d-none--tablet">
     Tarifs
     </a>
+    <a data-scroll href="#equipe" class="paragraph--16 paragraph--16--white mr--40 d-none--mobile d-none--tablet">
+    Notre équipe
+    </a>
     <a data-scroll href="#contact" class="paragraph--16 paragraph--16--white mr--40 d-none--mobile d-none--tablet">
     Contact
     </a>

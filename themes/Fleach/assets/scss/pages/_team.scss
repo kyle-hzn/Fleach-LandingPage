@@ -1,0 +1,68 @@
+.team {
+  &__wrapper {
+    display: flex;
+    padding-left: 50px;
+    @include breakpoint(small){
+      flex-direction: column;
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+  }
+  &__l {
+    flex: 1;
+    @include breakpoint(small){
+      margin-bottom: 40px;
+    }
+  }
+  &__r {
+    transform: translateX(20%);
+    flex: 2;
+    min-width: 0;
+    @include breakpoint(small){
+      transform: translateX(0%);
+    }
+  }
+  &__photo {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  &__text {
+    position: absolute;
+    bottom: 0;
+    padding: 16px 12px;
+  }
+  &__title {
+    line-height: 32px;
+    white-space: pre-line;
+  }
+  &__slide {
+    overflow: hidden;
+    position: relative;
+    height: 600px;
+    cursor: grab;
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: linear-gradient(180deg, rgba(0,0,0,0.00) 52%, rgba(0,0,0,0.70) 100%);
+    }
+  }
+  &__arrows {
+    display: inline-flex;
+  }
+  &__arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid $purple-regular;
+    background-color: transparent;
+    cursor: pointer;
+  }
+}

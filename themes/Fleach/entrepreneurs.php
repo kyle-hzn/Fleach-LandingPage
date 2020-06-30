@@ -14,7 +14,7 @@
                 <strong class="text--strong">Démarrez</strong>.
             </h1>
             <h2 class="paragraph--16 paragraph--16--grey hero__subtitle mb--40 reveal2">
-                Fleach vous accompagne dans la recherche d’investissement pour votre projet, en vous mettant en relation avec des business angels par le biais de notre plateforme ludique et intutitive de pitchs vidéos et de sessions live.
+                Fleach vous accompagne dans la recherche d’investissement pour votre projet, en vous mettant en relation avec des business angels par le biais de notre plateforme intutitive de pitchs vidéos et de sessions live.
             </h2>
             <div class="input--newsform reveal3">
                 <?php echo do_shortcode( '[wpforms id="5" title="false" description="false"]' ); ?>
@@ -38,13 +38,16 @@
             </h3>
             <ul class="product__list reveal2">
                 <li class="product__list__chip paragraph--20 paragraph--20--grey">
-                    <span>Définissez votre projet en enrengistrant une vidéo de présentation qualitative qui suit notre guide de 6 étapes</span>
+                    <span>Définissez votre projet en enrengistrant une vidéo de présentation qualitative qui suit notre guide de 8 étapes</span>
                 </li>
                 <li class="product__list__chip paragraph--20 paragraph--20--grey">
                     <span>Postez votre projet et vos objectifs sur notre plateforme</span>
                 </li>
                 <li class="product__list__chip paragraph--20 paragraph--20--grey">
-                    <span>Rencontrez des investisseurs reconnus et qualifiés</span>
+                    <span>Rencontrez des investisseurs expérimentés et qualifiés</span>
+                </li>
+                <li class="product__list__chip paragraph--20 paragraph--20--grey">
+                    <span>Renseignez votre ticket maximum afin de segmenter les potentiels investisseurs</span>
                 </li>
             </ul>
         </div>
@@ -80,14 +83,14 @@
         </div>
         <div class="product__r">
             <h3 class="title--two title--two--black mb--20 reveal">
-            Recevez les propositions des investisseurs intéressés par votre projet.
+            Recevez les propositions des Business Angels intéressés par votre projet.
             </h3>
             <ul class="product__list reveal2">
                 <li class="product__list__chip paragraph--20 paragraph--20--grey">
                     <span>Comparez les offres reçues et leurs argumentations</span>
                 </li>
                 <li class="product__list__chip paragraph--20 paragraph--20--grey">
-                    <span>Choisissez les meilleures offres</span>
+                    <span>Gagnez du temps en comparant les offres reçues directement sur la plateforme</span>
                 </li>
                 <li class="product__list__chip paragraph--20 paragraph--20--grey">
                     <span>Finalisez l’accord par la réception d’une lettre officielle d’intention d’investissement</span>

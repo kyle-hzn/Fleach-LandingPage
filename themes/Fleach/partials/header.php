@@ -21,10 +21,13 @@
     <link rel="icon" type="image/png" sizes="96x96" href="<?= IMAGES_URL.'/favicon-96x96.png'?>">
     <link rel="icon" type="image/png" sizes="16x16" href="<?= IMAGES_URL.'/favicon-16x16.png'?>">
     <link rel="manifest" href="<?= IMAGES_URL.'/manifest.json'?>">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.0.1/css/glide.core.css">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="<?= IMAGES_URL.'/ms-icon-144x144.png'?>">
     <meta name="theme-color" content="#ffffff">
     <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+    <script src="https://unpkg.com/@glidejs/glide"></script>
     <?php wp_head(); ?>
   </head>
   <body>

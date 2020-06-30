@@ -38,7 +38,6 @@ if (menuButton) {
   });
 }
 
-
 var scroll = new SmoothScroll('a[href*="#"]',{
   header: '[data-scroll-header]',
   offset: 100
@@ -66,3 +65,36 @@ sr.reveal('.reveal4', {
   origin: 'center',
   duration: 2000 
 });
+
+new Glide(".glide", {
+  type: "carousel",
+  gap: "20px",
+  itemWidth: 300,
+  slidesToShow: 'auto',
+  exactWidth: true,
+  perView: 3,
+  easing: function (x, t, b, c, d) {
+    return c*(t/=d)*t + b;
+  },
+  breakpoints: {
+    800: {
+      perView: 1
+    }
+  }
+}).mount();
+
+new Glide("#glide-reviews", {
+  type: "carousel",
+  gap: "20px",
+  itemWidth: 350,
+  slidesToShow: 'auto',
+  exactWidth: true,
+  perView: 5,
+  autoplay: 1000,
+  hoverpause: true,
+  breakpoints: {
+    800: {
+      perView: 1
+    }
+  }
+}).mount();

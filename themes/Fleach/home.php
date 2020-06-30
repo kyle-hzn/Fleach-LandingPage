@@ -9,12 +9,12 @@
 <div class="container hero mb--200">
     <div class="hero__wrapper">
         <div class="hero__intro">
-            <h1 class="title--one title--one--black hero__title mb--32 reveal">Visionnez,
+            <h1 class="title--one title--one--black hero__title mb--32 reveal">Sourcez,
                 Échangez,
                 <strong class="text--strong">Investissez</strong>.
             </h1>
             <h2 class="paragraph--16 paragraph--16--grey hero__subtitle mb--40 reveal2">
-                Fleach simplifie le quotidien des business angels en optimisant le sourcing de projets qualifiés au travers de rencontres vidéos avec des entrepreneurs innovants à la recherche d'investisseurs.
+                Fleach simplifie le quotidien des business angels en optimisant le sourcing de startups innovantes au travers de rencontres vidéos avec des entrepreneurs à la recherche d'investisseurs.
             </h2>
             <div class="input--newsform reveal3">
                 <?php echo do_shortcode( '[wpforms id="5" title="false" description="false"]' ); ?>
@@ -34,7 +34,7 @@
         </div>
         <div class="product__r">
             <h3 class="title--two title--two--black mb--20 reveal">
-                Sourcez les projets qui vous intéressent en quelques minutes.
+                Sourcez les startups qui vous intéressent en quelques minutes.
             </h3>
             <ul class="product__list reveal2">
                 <li class="product__list__chip paragraph--20 paragraph--20--grey">
@@ -47,7 +47,7 @@
                     <span>Définissez votre montant de tickets d’investissement maximum par projet</span>
                 </li>
                 <li class="product__list__chip paragraph--20 paragraph--20--grey">
-                    <span>Des vidéos courtes et ludiques qui récapitulent l’ensemble des points clés du projet</span>
+                    <span>Des vidéos courtes et impactantes qui récapitulent l’ensemble des points clés du projet</span>
                 </li>
             </ul>
         </div>
@@ -68,7 +68,7 @@
                     <span>Posez vos questions en direct via le chat</span>
                 </li>
                 <li class="product__list__chip paragraph--20 paragraph--20--grey">
-                    <span>Prévisionnez la capacité de votre investissement</span>
+                    <span>Évaluez la capacité de votre investissement</span>
                 </li>
             </ul>
         </div>
@@ -90,13 +90,13 @@
             </h3>
             <ul class="product__list reveal2">
                 <li class="product__list__chip paragraph--20 paragraph--20--grey">
-                    <span>Planifiez un live supplémentaire avec le(s) entrepreneur(s)</span>
+                    <span>Planifiez une visioconférence supplémentaire avec le(s) entrepreneur(s)</span>
                 </li>
                 <li class="product__list__chip paragraph--20 paragraph--20--grey">
                     <span>Négociez selon vos méthodes, critères et engagements</span>
                 </li>
                 <li class="product__list__chip paragraph--20 paragraph--20--grey">
-                    <span>Faites une offre d'investissement, finalisez l’accord par une lettre d’intention</span>
+                    <span>Vous avez ensuite toutes les cartes en mains pour faire une proposition ou continuer vos recherches. Votre offre d'investissement est directement finalisé sur Fleach par une lettre d’intention</span>
                 </li>
             </ul>
         </div>
@@ -114,7 +114,7 @@
         </div>
         <div class="pricing__r">
             <h3 class="title--two title--two--black">
-                Premium
+                Abonnement
             </h3>
             <div class="pricing__price mb--20">
                 <h4 class="pricing__price__nb mr--10">
@@ -141,6 +141,92 @@
         </div>
     </div>
 </div>
+<div class="team mb--200" id="equipe">
+    <div class="team__wrapper">
+        <div class="team__l">
+            <h3 class="title--two title--two--black mb--20">
+                L’équipe Fleach
+            </h3>
+            <p class="paragraph--16 paragraph--16--black">
+                In oculis quidem rerum facilis est cur verear, ne interiret at magnum periculum. Filium morte multavit si sine causa? quae fuerit causa, nollem me ab illo.
+            </p>
+        </div>  
+        <div class="team__r">
+            <div class="glide__track" data-glide-el="track">
+                <div class="glide">
+                    <div class="glide__track" data-glide-el="track">
+                        <ul class="glide__slides team__slides">
+                            <li class="glide__slide team__slide">
+                                <img class="team__photo" src="<?= IMAGES_URL.'/Charlotte_Farando.jpg'?>" alt="Charlotte Farando">
+                                <div class="team__text">
+                                    <p class="title--two title--two--white text--strong team__title">
+                                        Charlotte
+                                        Farando
+                                    </p>
+                                    <p class="paragraph--16 paragraph--16--white">
+                                        Product Owner
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="glide__slide team__slide">
+                                <img class="team__photo" src="<?= IMAGES_URL.'/Kyle_Hazan.jpeg'?>" alt="Kyle Hazan">
+                                <div class="team__text">
+                                    <p class="title--two title--two--white text--strong team__title">
+                                        Kyle
+                                        Hazan
+                                    </p>
+                                    <p class="paragraph--16 paragraph--16--white">
+                                        Product Designer
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="glide__slide team__slide">
+                                <img class="team__photo" src="<?= IMAGES_URL.'/Nicolas_Bernaux.jpeg'?>" alt="Nicolas Bernaux">
+                                <div class="team__text">
+                                    <p class="title--two title--two--white text--strong team__title">
+                                        Nicolas
+                                        Bernaux
+                                    </p>
+                                    <p class="paragraph--16 paragraph--16--white">
+                                        Developer Back-end
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="glide__slide team__slide">
+                                <img class="team__photo" src="<?= IMAGES_URL.'/Solenne_Delauriere.jpeg'?>" alt="Solenne Delauriere">
+                                <div class="team__text">
+                                    <p class="title--two title--two--white text--strong team__title">
+                                        Solenne
+                                        Delauriere
+                                    </p>
+                                    <p class="paragraph--16 paragraph--16--white">
+                                        Product Designer
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="glide__slide team__slide">
+                                <img class="team__photo" src="<?= IMAGES_URL.'/Victor_Germain.jpeg'?>" alt="Victor Germain">
+                                <div class="team__text">
+                                    <p class="title--two title--two--white text--strong team__title">
+                                        Victor
+                                        Germain
+                                    </p>
+                                    <p class="paragraph--16 paragraph--16--white">
+                                        Developer Front-end
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="glide__arrows team__arrows mt--40" data-glide-el="controls">
+                        <div class="glide__arrow team__arrow glide__arrow--left mr--10" data-glide-dir="<"><img src="<?= IMAGES_URL.'/chevron-left.svg'?>" alt="gauche"></div>
+                        <div class="glide__arrow team__arrow glide__arrow--right" data-glide-dir=">"><img src="<?= IMAGES_URL.'/chevron-right.svg'?>" alt="gauche"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <div class="container contact mb--200" id="contact">
     <div class="contact__wrapper">
         <div class="contact__l reveal">
@@ -152,6 +238,64 @@
             <div class="contact__form">
                 <?php echo do_shortcode( '[wpforms id="7" title="false" description="false"]' ); ?>
             </div>
+        </div>
+    </div>
+</div>
+<div class="reviews">
+    <div class="glide" id="glide-reviews">
+        <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides reviews__slides">
+                <li class="glide__slide reviews__slide">
+                    <div class="reviews__text">
+                        <p class="title--two title--two--black text--strong team__title">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et error amet nostrum rem dolorum in odio dignissimos eveniet, consequatur culpa dolore voluptatibus, libero possimus? Ex quam at quisquam rerum quas.
+                        </p>
+                        <p class="paragraph--16 paragraph--16--black">
+                            Product Owner
+                        </p>
+                    </div>
+                </li>
+                <li class="glide__slide">
+                    <div class="reviews__text">
+                        <p class="title--two title--two--black text--strong team__title">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et error amet nostrum rem dolorum in odio dignissimos eveniet, consequatur culpa dolore voluptatibus, libero possimus? Ex quam at quisquam rerum quas.
+                        </p>
+                        <p class="paragraph--16 paragraph--16--black">
+                            Product Owner
+                        </p>
+                    </div>
+                </li>
+                <li class="glide__slide">
+                    <div class="reviews__text">
+                        <p class="title--two title--two--black text--strong team__title">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et error amet nostrum rem dolorum in odio dignissimos eveniet, consequatur culpa dolore voluptatibus, libero possimus? Ex quam at quisquam rerum quas.
+                        </p>
+                        <p class="paragraph--16 paragraph--16--black">
+                            Product Owner
+                        </p>
+                    </div>
+                </li>
+                <li class="glide__slide">
+                    <div class="reviews__text">
+                        <p class="title--two title--two--black text--strong team__title">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et error amet nostrum rem dolorum in odio dignissimos eveniet, consequatur culpa dolore voluptatibus, libero possimus? Ex quam at quisquam rerum quas.
+                        </p>
+                        <p class="paragraph--16 paragraph--16--black">
+                            Product Owner
+                        </p>
+                    </div>
+                </li>
+                <li class="glide__slide">
+                    <div class="reviews__text">
+                        <p class="title--two title--two--black text--strong team__title">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et error amet nostrum rem dolorum in odio dignissimos eveniet, consequatur culpa dolore voluptatibus, libero possimus? Ex quam at quisquam rerum quas.
+                        </p>
+                        <p class="paragraph--16 paragraph--16--black">
+                            Product Owner
+                        </p>
+                    </div>
+                </li>
+            </ul>
         </div>
     </div>
 </div>

@@ -5,6 +5,9 @@
   <a data-scroll href="#tarif" class="header-modal__links title--two title--two--white mb--40">
     Tarifs
   </a>
+  <a data-scroll href="#equipe" class="header-modal__links title--two title--two--white mb--40">
+    Notre équipe
+  </a>
   <a data-scroll href="#contact" class="header-modal__links title--two title--two--white mb--40">
     Contact
   </a>

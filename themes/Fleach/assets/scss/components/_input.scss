@@ -1,75 +1,76 @@
-.input{
-  &--newsform{
-    display:flex !important;
+.input {
+  &--newsform {
+    display: flex !important;
     align-items: center !important;
     position: relative !important;
   }
+
   // &--news{
-    // height: 64px !important;
-    // background: $grey-light !important;
-    // border-radius: 8px !important;
-    // flex-grow: 2 !important;
-    // outline: none !important;
-    // padding-left: 54px !important;
-    // font-family: Aeonik !important;
-    // font-size: 14px !important;
-    // font-weight: 500 !important;
-    // color: $purple-regular !important;
-    // transition: ease-in 0.5s border !important;
-    // border: 1px solid $grey-light !important;
-    // position: relative !important;
-    // background-image: url(https://fleach.app/wp-content/themes/Fleach/dist/img/envelop-icon.svg) !important;
-    // background-position: 24px !important;
-    // background-repeat: no-repeat !important;
-    // &:focus{
-    //   border: 1px solid $purple-regular;
-    // }
-    // &::-webkit-input-placeholder{
-    //   font-family: Aeonik;
-    //   font-size: 14px;
-    //   color: $black-light;
-    // }
-    // &__submit{
-    //   width: 60px;
-    //   height: 60px;
-    //   display: flex;
-    //   align-items: center;
-    //   justify-content: center;
-    //   background-color: $purple-regular;
-    //   border-radius: 8px;
-    //   -webkit-appearance: none;
-    //   cursor: pointer;
-    //   position: absolute;
-    //   right: 4px;
-    //   transition: ease-in-out 0.3s all;
-    //   overflow: hidden;
-    //   &__img1{
-    //     position: absolute;
-    //     transform: translateX(-3vw);
-    //     transition: ease-in-out 0.3s all;
-    //     @include breakpoint(small){
-    //       transform: translateX(-13vw);
-    //     }
-    //   }
-    //   &__img2{
-    //     transform: translateX(0vw);
-    //     transition: ease-in-out 0.3s all;
-    //   }
-    //   &:hover{
-    //     background-color: $purple-dark;
-    //     .input--news__submit__img1{
-    //       transform: translateX(0vw);
-    //     }
-    //     .input--news__submit__img2{
-    //       transform: translateX(3vw);
-    //       @include breakpoint(small){
-    //         transform: translateX(13vw);
-    //       }
-    //     }
-    //   }
-    // }
+  // height: 64px !important;
+  // background: $grey-light !important;
+  // border-radius: 8px !important;
+  // flex-grow: 2 !important;
+  // outline: none !important;
+  // padding-left: 54px !important;
+  // font-family: Aeonik !important;
+  // font-size: 14px !important;
+  // font-weight: 500 !important;
+  // color: $purple-regular !important;
+  // transition: ease-in 0.5s border !important;
+  // border: 1px solid $grey-light !important;
+  // position: relative !important;
+  // background-image: url(https://fleach.app/wp-content/themes/Fleach/dist/img/envelop-icon.svg) !important;
+  // background-position: 24px !important;
+  // background-repeat: no-repeat !important;
+  // &:focus{
+  //   border: 1px solid $purple-regular;
   // }
-  &--text{
+  // &::-webkit-input-placeholder{
+  //   font-family: Aeonik;
+  //   font-size: 14px;
+  //   color: $black-light;
+  // }
+  // &__submit{
+  //   width: 60px;
+  //   height: 60px;
+  //   display: flex;
+  //   align-items: center;
+  //   justify-content: center;
+  //   background-color: $purple-regular;
+  //   border-radius: 8px;
+  //   -webkit-appearance: none;
+  //   cursor: pointer;
+  //   position: absolute;
+  //   right: 4px;
+  //   transition: ease-in-out 0.3s all;
+  //   overflow: hidden;
+  //   &__img1{
+  //     position: absolute;
+  //     transform: translateX(-3vw);
+  //     transition: ease-in-out 0.3s all;
+  //     @include breakpoint(small){
+  //       transform: translateX(-13vw);
+  //     }
+  //   }
+  //   &__img2{
+  //     transform: translateX(0vw);
+  //     transition: ease-in-out 0.3s all;
+  //   }
+  //   &:hover{
+  //     background-color: $purple-dark;
+  //     .input--news__submit__img1{
+  //       transform: translateX(0vw);
+  //     }
+  //     .input--news__submit__img2{
+  //       transform: translateX(3vw);
+  //       @include breakpoint(small){
+  //         transform: translateX(13vw);
+  //       }
+  //     }
+  //   }
+  // }
+  // }
+  &--text {
     height: 64px;
     width: 100%;
     background: $grey-light;
@@ -83,16 +84,19 @@
     color: $purple-regular;
     transition: ease-in 0.5s border;
     border: 1px solid $grey-light;
-    &:focus{
+
+    &:focus {
       border: 1px solid $purple-regular;
     }
-    &::-webkit-input-placeholder{
+
+    &::-webkit-input-placeholder {
       font-family: Aeonik;
       font-size: 14px;
       color: $black-light;
     }
   }
-  &--textarea{
+
+  &--textarea {
     padding: 24px;
     box-sizing: border-box;
     height: 150px;
@@ -107,15 +111,18 @@
     transition: ease-in 0.5s border;
     border: 1px solid $grey-light;
     resize: none;
-    &:focus{
+
+    &:focus {
       border: 1px solid $purple-regular;
     }
-    &::-webkit-input-placeholder{
+
+    &::-webkit-input-placeholder {
       font-family: Aeonik;
       font-size: 14px;
       color: $black-light;
     }
   }
+
   // &--checkbox{
   //   &__label{
   //     font-family: Aeonik;
@@ -146,18 +153,21 @@
   //   }
   // }
 }
-#contact__submit{
-  display: none;
-}
-#hero__newsform__submit{
-  display: none;
-}
-#hero__newsform__submit2{
+
+#contact__submit {
   display: none;
 }
 
-.input--news{
-  input{
+#hero__newsform__submit {
+  display: none;
+}
+
+#hero__newsform__submit2 {
+  display: none;
+}
+
+.input--news {
+  input {
     height: 64px !important;
     background: $grey-light !important;
     border-radius: 8px !important;
@@ -174,17 +184,20 @@
     background-image: url(https://fleach.app/wp-content/themes/Fleach/dist/img/envelop-icon.svg) !important;
     background-position: 24px !important;
     background-repeat: no-repeat !important;
-    &:focus{
+
+    &:focus {
       border: 1px solid $purple-regular !important;
     }
-    &::-webkit-input-placeholder{
+
+    &::-webkit-input-placeholder {
       font-family: Aeonik;
       font-size: 14px;
       color: $black-light;
     }
   }
 }
-.input--news__submit{
+
+.input--news__submit {
   width: 56px !important;
   height: 56px !important;
   display: flex !important;
@@ -201,80 +214,100 @@
   top: 50% !important;
   transform: translateY(-50%) !important;
   border: 0px !important;
-  &:before{
+
+  &:before {
     content: url(https://fleach.app/wp-content/themes/Fleach/dist/img/arrow-icon.svg);
     transform: translateX(-3vw);
     position: absolute;
     transition: ease-in-out 0.3s all !important;
-    @include breakpoint(small){
+
+    @include breakpoint(small) {
       transform: translateX(-13vw);
     }
-    @include breakpoint(tablet){
+
+    @include breakpoint(tablet) {
       transform: translateX(15vw);
     }
   }
-  &:after{
+
+  &:after {
     content: url(https://fleach.app/wp-content/themes/Fleach/dist/img/arrow-icon.svg);
     transform: translateX(0vw);
     position: absolute;
     transition: ease-in-out 0.3s all !important;
   }
-  &:hover{
+
+  &:hover {
     background-color: $purple-dark !important;
-    &:before{
+
+    &:before {
       transform: translateX(0vw);
     }
-    &:after{
+
+    &:after {
       transform: translateX(3vw);
-      @include breakpoint(small){
+
+      @include breakpoint(small) {
         transform: translateX(13vw);
       }
-      @include breakpoint(tablet){
+
+      @include breakpoint(tablet) {
         transform: translateX(15vw);
       }
     }
   }
 }
-.input--newsform{
-  form{
-    display:flex !important;
+
+.input--newsform {
+  form {
+    display: flex !important;
     align-items: center !important;
     position: relative !important;
   }
 }
-.wpforms-container{
+
+.wpforms-container {
   margin-bottom: 0 !important;
 }
+
 div.wpforms-container-full {
   margin-bottom: 0 !important;
   margin-left: 0 !important;
   margin-right: 0 !important;
 }
-#wpforms-5-field_1-container{
+
+#wpforms-5-field_1-container {
   width: 30vw !important;
-  @include breakpoint(small){
+
+  @include breakpoint(small) {
     width: 90vw !important;
   }
 }
-#wpforms-6-field_1-container{
+
+#wpforms-6-field_1-container {
   width: 30vw !important;
-  @include breakpoint(small){
+
+  @include breakpoint(small) {
     width: 90vw !important;
   }
 }
-div.wpforms-container-full .wpforms-form .wpforms-field{
+
+div.wpforms-container-full .wpforms-form .wpforms-field {
   padding: 0 !important;
   clear: none !important;
 }
-div.wpforms-container-full .wpforms-form button[type=submit]{
+
+div.wpforms-container-full .wpforms-form button[type=submit] {
   border: 0 !important;
   padding: 0 !important;
 }
-.wpforms-error{
+
+.wpforms-error {
   position: absolute !important;
   padding: 12px 24px !important;
 }
-.wpforms-confirmation-container-full{
+
+.wpforms-confirmation-container-full {
   background: $purple-light !important;
   border: 1px solid $purple-regular !important;
   border-radius: 8px !important;
@@ -284,8 +317,9 @@ div.wpforms-container-full .wpforms-form button[type=submit]{
   margin: 0 !important;
   padding: 24px !important;
 }
-.input--text{
-  input{
+
+.input--text {
+  input {
     height: 64px !important;
     width: 100% !important;
     background: $grey-light !important;
@@ -299,21 +333,25 @@ div.wpforms-container-full .wpforms-form button[type=submit]{
     color: $purple-regular !important;
     transition: ease-in 0.5s border !important;
     border: 1px solid $grey-light !important;
-    &:focus{
+
+    &:focus {
       border: 1px solid $purple-regular !important;
     }
-    &::-webkit-input-placeholder{
+
+    &::-webkit-input-placeholder {
       font-family: Aeonik !important;
       font-size: 14px !important;
       color: $black-light !important;
     }
   }
 }
-.wpforms-container .wpforms-field{
+
+.wpforms-container .wpforms-field {
   padding: 0 !important;
 }
-.input--textarea{
-  textarea{
+
+.input--textarea {
+  textarea {
     padding: 24px !important;
     box-sizing: border-box !important;
     height: 150px !important;
@@ -328,44 +366,51 @@ div.wpforms-container-full .wpforms-form button[type=submit]{
     transition: ease-in 0.5s border !important;
     border: 1px solid $grey-light !important;
     resize: none !important;
-    &:focus{
+
+    &:focus {
       border: 1px solid $purple-regular !important;
     }
-    &::-webkit-input-placeholder{
+
+    &::-webkit-input-placeholder {
       font-family: Aeonik !important;
       font-size: 14px !important;
       color: $black-light !important;
     }
   }
 }
-.wpforms-container input[type=checkbox], .wpforms-container input[type=radio]{
+
+.wpforms-container input[type=checkbox],
+.wpforms-container input[type=radio] {
   -webkit-appearance: none !important;
   -moz-appearance: none !important;
   -ms-appearance: none !important;
-  background: rgba(255,255,255,0.00) !important;
+  background: rgba(255, 255, 255, 0.00) !important;
   border: 2px solid #5A67E3 !important;
   border-radius: 4px !important;
   width: 18px !important;
   height: 18px !important;
-  box-shadow:inset 0px 0px 0px 2px $white !important;
+  box-shadow: inset 0px 0px 0px 2px $white !important;
   outline: none !important;
   padding: 0 !important;
   margin-right: 10px !important;
   vertical-align: bottom !important;
   position: relative !important;
-  &:checked{
+
+  &:checked {
     background-color: $purple-regular !important;
   }
 }
-.wpforms-field-label-inline{
+
+.wpforms-field-label-inline {
   font-family: Aeonik !important;
   font-size: 12px !important;
   color: $grey-dark !important;
   letter-spacing: 0 !important;
   line-height: 18px !important;
 }
-#wpforms-confirmation-5{
-  p{
+
+#wpforms-confirmation-5 {
+  p {
     font-family: Aeonik !important;
     font-size: 16px !important;
     font-weight: 500 !important;
@@ -378,8 +423,9 @@ div.wpforms-container-full .wpforms-form button[type=submit]{
     padding: 32px !important;
   }
 }
-#wpforms-confirmation-6{
-  p{
+
+#wpforms-confirmation-6 {
+  p {
     font-family: Aeonik !important;
     font-size: 16px !important;
     font-weight: 500 !important;
@@ -392,8 +438,9 @@ div.wpforms-container-full .wpforms-form button[type=submit]{
     padding: 32px !important;
   }
 }
-#wpforms-confirmation-7{
-  p{
+
+#wpforms-confirmation-7 {
+  p {
     font-family: Aeonik !important;
     font-size: 16px !important;
     font-weight: 500 !important;
@@ -406,7 +453,8 @@ div.wpforms-container-full .wpforms-form button[type=submit]{
     padding: 32px !important;
   }
 }
-#cookie-law-info-bar{
+
+#cookie-law-info-bar {
   bottom: 16px !important;
   border-radius: 16px !important;
   width: 90% !important;
@@ -414,24 +462,50 @@ div.wpforms-container-full .wpforms-form button[type=submit]{
   transform: translateX(-50%) !important;
   padding: 32px 24px !important;
 }
-#cookie_action_close_header{
+
+#cookie_action_close_header {
   border-radius: 8px !important;
   margin: 0px 24px !important;
-  @include breakpoint(small){
-    margin: 12px 24px!important;
+
+  @include breakpoint(small) {
+    margin: 12px 24px !important;
   }
 }
-#cookie-law-info-bar span{
+
+#cookie-law-info-bar span {
   font-size: 14px !important;
-  @include breakpoint(small){
+
+  @include breakpoint(small) {
     display: flex !important;
     flex-direction: column !important;
-    font-size: 12px!important;
+    font-size: 12px !important;
     line-height: 16px;
   }
 }
-.cli_settings_button{
-  @include breakpoint(small){
+
+.cli_settings_button {
+  @include breakpoint(small) {
     margin: 0 !important;
   }
+}
+
+#wpforms-7-field_7 {
+  height: 64px;
+  width: 100%;
+  border-radius: 8px;
+  outline: none;
+  padding-left: 24px;
+  box-sizing: border-box;
+  font-family: Aeonik;
+  font-size: 14px;
+  font-weight: 500;
+  color: $black-light;
+  transition: border .5s ease-in;
+  border: 1px solid #f4f6f9;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background: url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right #f4f6f9;
+  -webkit-appearance: none;
+  background-position-x: 95%;
 }
