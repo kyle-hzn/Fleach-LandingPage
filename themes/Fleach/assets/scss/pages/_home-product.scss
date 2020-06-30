@@ -60,7 +60,7 @@
       background-color: #1A29BA;
       background-image: url(https://fleach.app/wp-content/themes/Fleach/dist/img/shape-dark.svg);
       background-repeat: no-repeat;
-      background-position: -100% 50%;
+      background-position: -40% 20%;
     }
     &--regular{
       background-color: $purple-regular;
@@ -76,6 +76,9 @@
     &--top{
       transform: translate(-50%,50px);
     }
+    &--top2{
+      transform: translate(-50%,-40%);
+    }
     &--btm{
       transform: translate(-50%,-150px);
     }
@@ -87,6 +90,11 @@
       width: 60%;
       height: auto;
     }
+  }
+  &__mockup2 {
+    position: absolute;
+    left: 50%;
+    max-width: 110%;
   }
   &__list{    
     list-style-position: outside;

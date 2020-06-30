@@ -74,7 +74,7 @@
         </div>
         <div class="product__r product__center reveal4">
             <div class="product__shape product__shape--dark">
-                <img class="product__mockup product__mockup--btm" src="<?= IMAGES_URL.'/investisseurs-live.png'?>" alt="investisseurs live">
+                <img class="product__mockup2 product__mockup--top2" src="<?= IMAGES_URL.'/investisseurs-live.png'?>" alt="investisseurs live">
             </div>
         </div>
     </div>
@@ -148,7 +148,10 @@
                 L’équipe Fleach
             </h3>
             <p class="paragraph--16 paragraph--16--black">
-                In oculis quidem rerum facilis est cur verear, ne interiret at magnum periculum. Filium morte multavit si sine causa? quae fuerit causa, nollem me ab illo.
+                Une équipe determinée qui se fixe pour objectif de chaque jour faire évoluer 
+                l'investissement entre business angels et start-ups innovante. Une des forces de
+                l'entreprise Fleach repose dans l'ambition et les compétences de ses membres et
+                partenaires.
             </p>
         </div>  
         <div class="team__r">
@@ -241,57 +244,43 @@
         </div>
     </div>
 </div>
-<div class="reviews">
+<div class="reviews mb--40">
     <div class="glide" id="glide-reviews">
         <div class="glide__track" data-glide-el="track">
             <ul class="glide__slides reviews__slides">
                 <li class="glide__slide reviews__slide">
+                    <img src="<?= IMAGES_URL.'/Quote-Icon.svg'?>" alt="Review">
                     <div class="reviews__text">
-                        <p class="title--two title--two--black text--strong team__title">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et error amet nostrum rem dolorum in odio dignissimos eveniet, consequatur culpa dolore voluptatibus, libero possimus? Ex quam at quisquam rerum quas.
+                        <p class="paragraph--14 paragraph--14--white">
+                            Un service adapté aux business angels dans leurs quotidiens et un moyen de rencontrer
+                            des entrepreneurs de qualité.
                         </p>
-                        <p class="paragraph--16 paragraph--16--black">
-                            Product Owner
+                        <p class="paragraph--16 paragraph--16--white text--strong">
+                            Simon Guedj, business angel
                         </p>
                     </div>
                 </li>
-                <li class="glide__slide">
+                <li class="glide__slide reviews__slide">
+                    <img src="<?= IMAGES_URL.'/Quote-Icon.svg'?>" alt="Review">
                     <div class="reviews__text">
-                        <p class="title--two title--two--black text--strong team__title">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et error amet nostrum rem dolorum in odio dignissimos eveniet, consequatur culpa dolore voluptatibus, libero possimus? Ex quam at quisquam rerum quas.
+                        <p class="paragraph--14 paragraph--14--white">
+                            Un moyen de réduire le temps passé sur la phase de due dilligence lors de la découverte 
+                            de nouveaux projets et d'accéder à des starts-ups en adéquation avec nos spécialités.
                         </p>
-                        <p class="paragraph--16 paragraph--16--black">
-                            Product Owner
+                        <p class="paragraph--16 paragraph--16--white text--strong">
+                            Jessica Finn, business angel
                         </p>
                     </div>
                 </li>
-                <li class="glide__slide">
+                <li class="glide__slide reviews__slide">
+                    <img src="<?= IMAGES_URL.'/Quote-Icon.svg'?>" alt="Review">
                     <div class="reviews__text">
-                        <p class="title--two title--two--black text--strong team__title">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et error amet nostrum rem dolorum in odio dignissimos eveniet, consequatur culpa dolore voluptatibus, libero possimus? Ex quam at quisquam rerum quas.
+                        <p class="paragraph--14 paragraph--14--white">
+                            Une application qui se différencie avec la possibilité de rencontrer des experts qualifiés
+                            en plus de potentiels investisseurs financiers.
                         </p>
-                        <p class="paragraph--16 paragraph--16--black">
-                            Product Owner
-                        </p>
-                    </div>
-                </li>
-                <li class="glide__slide">
-                    <div class="reviews__text">
-                        <p class="title--two title--two--black text--strong team__title">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et error amet nostrum rem dolorum in odio dignissimos eveniet, consequatur culpa dolore voluptatibus, libero possimus? Ex quam at quisquam rerum quas.
-                        </p>
-                        <p class="paragraph--16 paragraph--16--black">
-                            Product Owner
-                        </p>
-                    </div>
-                </li>
-                <li class="glide__slide">
-                    <div class="reviews__text">
-                        <p class="title--two title--two--black text--strong team__title">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et error amet nostrum rem dolorum in odio dignissimos eveniet, consequatur culpa dolore voluptatibus, libero possimus? Ex quam at quisquam rerum quas.
-                        </p>
-                        <p class="paragraph--16 paragraph--16--black">
-                            Product Owner
+                        <p class="paragraph--16 paragraph--16--white text--strong">
+                            Fréderic Santos, CEO de Plygon App
                         </p>
                     </div>
                 </li>

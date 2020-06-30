@@ -138,6 +138,95 @@
         </div>
     </div>
 </div>
+<div class="team mb--200" id="equipe">
+    <div class="team__wrapper">
+        <div class="team__l">
+            <h3 class="title--two title--two--black mb--20">
+                L’équipe Fleach
+            </h3>
+            <p class="paragraph--16 paragraph--16--black">
+                Une équipe determinée qui se fixe pour objectif de chaque jour faire évoluer 
+                l'investissement entre business angels et start-ups innovante. Une des forces de
+                l'entreprise Fleach repose dans l'ambition et les compétences de ses membres et
+                partenaires.
+            </p>
+        </div>  
+        <div class="team__r">
+            <div class="glide__track" data-glide-el="track">
+                <div class="glide">
+                    <div class="glide__track" data-glide-el="track">
+                        <ul class="glide__slides team__slides">
+                            <li class="glide__slide team__slide">
+                                <img class="team__photo" src="<?= IMAGES_URL.'/Charlotte_Farando.jpg'?>" alt="Charlotte Farando">
+                                <div class="team__text">
+                                    <p class="title--two title--two--white text--strong team__title">
+                                        Charlotte
+                                        Farando
+                                    </p>
+                                    <p class="paragraph--16 paragraph--16--white">
+                                        Product Owner
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="glide__slide team__slide">
+                                <img class="team__photo" src="<?= IMAGES_URL.'/Kyle_Hazan.jpeg'?>" alt="Kyle Hazan">
+                                <div class="team__text">
+                                    <p class="title--two title--two--white text--strong team__title">
+                                        Kyle
+                                        Hazan
+                                    </p>
+                                    <p class="paragraph--16 paragraph--16--white">
+                                        Product Designer
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="glide__slide team__slide">
+                                <img class="team__photo" src="<?= IMAGES_URL.'/Nicolas_Bernaux.jpeg'?>" alt="Nicolas Bernaux">
+                                <div class="team__text">
+                                    <p class="title--two title--two--white text--strong team__title">
+                                        Nicolas
+                                        Bernaux
+                                    </p>
+                                    <p class="paragraph--16 paragraph--16--white">
+                                        Developer Back-end
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="glide__slide team__slide">
+                                <img class="team__photo" src="<?= IMAGES_URL.'/Solenne_Delauriere.jpeg'?>" alt="Solenne Delauriere">
+                                <div class="team__text">
+                                    <p class="title--two title--two--white text--strong team__title">
+                                        Solenne
+                                        Delauriere
+                                    </p>
+                                    <p class="paragraph--16 paragraph--16--white">
+                                        Product Designer
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="glide__slide team__slide">
+                                <img class="team__photo" src="<?= IMAGES_URL.'/Victor_Germain.jpeg'?>" alt="Victor Germain">
+                                <div class="team__text">
+                                    <p class="title--two title--two--white text--strong team__title">
+                                        Victor
+                                        Germain
+                                    </p>
+                                    <p class="paragraph--16 paragraph--16--white">
+                                        Developer Front-end
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="glide__arrows team__arrows mt--40" data-glide-el="controls">
+                        <div class="glide__arrow team__arrow glide__arrow--left mr--10" data-glide-dir="<"><img src="<?= IMAGES_URL.'/chevron-left.svg'?>" alt="gauche"></div>
+                        <div class="glide__arrow team__arrow glide__arrow--right" data-glide-dir=">"><img src="<?= IMAGES_URL.'/chevron-right.svg'?>" alt="gauche"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <div class="container contact mb--200" id="contact">
     <div class="contact__wrapper">
         <div class="contact__l reveal">
@@ -149,6 +238,50 @@
             <div class="contact__form">
                 <?php echo do_shortcode( '[wpforms id="7" title="false" description="false"]' ); ?>
             </div>
+        </div>
+    </div>
+</div>
+<div class="reviews mb--40">
+    <div class="glide" id="glide-reviews">
+        <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides reviews__slides">
+                <li class="glide__slide reviews__slide">
+                    <img src="<?= IMAGES_URL.'/Quote-Icon.svg'?>" alt="Review">
+                    <div class="reviews__text">
+                        <p class="paragraph--14 paragraph--14--white">
+                            Un service adapté aux business angels dans leurs quotidiens et un moyen de rencontrer
+                            des entrepreneurs de qualité.
+                        </p>
+                        <p class="paragraph--16 paragraph--16--white text--strong">
+                            Simon Guedj, business angel
+                        </p>
+                    </div>
+                </li>
+                <li class="glide__slide reviews__slide">
+                    <img src="<?= IMAGES_URL.'/Quote-Icon.svg'?>" alt="Review">
+                    <div class="reviews__text">
+                        <p class="paragraph--14 paragraph--14--white">
+                            Un moyen de réduire le temps passé sur la phase de due dilligence lors de la découverte 
+                            de nouveaux projets et d'accéder à des starts-ups en adéquation avec nos spécialités.
+                        </p>
+                        <p class="paragraph--16 paragraph--16--white text--strong">
+                            Jessica Finn, business angel
+                        </p>
+                    </div>
+                </li>
+                <li class="glide__slide reviews__slide">
+                    <img src="<?= IMAGES_URL.'/Quote-Icon.svg'?>" alt="Review">
+                    <div class="reviews__text">
+                        <p class="paragraph--14 paragraph--14--white">
+                            Une application qui se différencie avec la possibilité de rencontrer des experts qualifiés
+                            en plus de potentiels investisseurs financiers.
+                        </p>
+                        <p class="paragraph--16 paragraph--16--white text--strong">
+                            Fréderic Santos, CEO de Plygon App
+                        </p>
+                    </div>
+                </li>
+            </ul>
         </div>
     </div>
 </div>

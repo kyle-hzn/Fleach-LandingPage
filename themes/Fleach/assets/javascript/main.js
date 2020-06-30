@@ -86,11 +86,11 @@ new Glide(".glide", {
 new Glide("#glide-reviews", {
   type: "carousel",
   gap: "20px",
-  itemWidth: 350,
+  itemWidth: 360,
   slidesToShow: 'auto',
   exactWidth: true,
-  perView: 5,
-  autoplay: 1000,
+  perView: 4,
+  autoplay: 2000,
   hoverpause: true,
   breakpoints: {
     800: {

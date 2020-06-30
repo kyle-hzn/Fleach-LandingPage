@@ -61,8 +61,12 @@
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    border: 1px solid $purple-regular;
+    border: 1px solid $purple-light;
     background-color: transparent;
+    transition: ease-in-out 0.3s all;
     cursor: pointer;
+    &:hover {
+      border: 1px solid $purple-regular;
+    }
   }
 }
